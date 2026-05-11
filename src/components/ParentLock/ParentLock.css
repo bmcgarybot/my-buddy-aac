@@ -1,0 +1,23 @@
+.ParentLock__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #7B1FA2;
+  color: white;
+}
+
+.ParentLock__title .MuiDialogTitle-root {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ParentLock__icon {
+  margin-right: 8px;
+  color: white;
+}
+
+.ParentLock__content {
+  padding-top: 24px !important;
+  text-align: center;
+}

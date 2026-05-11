@@ -1,0 +1,24 @@
+[
+  {
+    "id": "cboard_default",
+    "name": "My Buddy Communicator",
+    "description": "My Buddy default communicator",
+    "author": "My Buddy Team",
+    "email": "support@cboard.io",
+    "rootBoard": "root",
+    "boards": [
+      "root",
+      "mybuddy-level2"
+    ],
+    "defaultBoardsIncluded": [
+      {
+        "nameOnJSON": "advanced",
+        "homeBoard": "root"
+      },
+      {
+        "nameOnJSON": "picSeePal",
+        "homeBoard": "jjmlUcQs19"
+      }
+    ]
+  }
+]
