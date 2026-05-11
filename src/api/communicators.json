@@ -1,24 +1,15 @@
 [
   {
     "id": "cboard_default",
-    "name": "My Buddy Communicator",
-    "description": "My Buddy default communicator",
-    "author": "My Buddy Team",
+    "name": "Cboard's Communicator",
+    "description": "Cboard's default communicator",
+    "author": "Cboard Team",
     "email": "support@cboard.io",
     "rootBoard": "root",
-    "boards": [
-      "root",
-      "mybuddy-level2"
-    ],
+    "boards": ["root"],
     "defaultBoardsIncluded": [
-      {
-        "nameOnJSON": "advanced",
-        "homeBoard": "root"
-      },
-      {
-        "nameOnJSON": "picSeePal",
-        "homeBoard": "jjmlUcQs19"
-      }
+      { "nameOnJSON": "advanced", "homeBoard": "root" },
+      { "nameOnJSON": "picSeePal", "homeBoard": "jjmlUcQs19" }
     ]
   }
 ]

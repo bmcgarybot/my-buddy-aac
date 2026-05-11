@@ -3,835 +3,217 @@
   "advanced": [
     {
       "id": "root",
-      "name": "My Buddy Home",
+      "name": "Cboard Classic Home",
+      "nameKey": "cboard.board.home",
+      "author": "Cboard",
+      "description": "rootBoardDescription",
+      "email": "support@cboard.io",
+      "isPublic": false,
+      "hidden": false,
       "tiles": [
         {
-          "id": "892b4b6c",
-          "label": "I",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/i_-_me.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "0d9e926d",
-          "label": "you",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/you.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "442eec80",
-          "label": "my",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/my_-_mine.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "f28ead9b",
-          "label": "it",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/it.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "cb3de963",
-          "label": "that",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/that.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "74a9f387",
-          "label": "want",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_want.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c278a12f",
-          "label": "go",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_go.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "81876582",
-          "label": "help",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_help.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2f8328a1",
-          "label": "like",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_like.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "94c23a81",
-          "label": "stop",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/stop.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "2f9f2bdb",
-          "label": "more",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/more.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "e3776bcb",
-          "label": "yes",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "cboard.symbol.yes",
           "image": "/symbols/mulberry/correct.svg",
-          "backgroundColor": "#a5d6a7"
+          "id": "HJVQMR9pX5F-",
+          "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "id": "506dd6c5",
-          "label": "no",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.descriptiveState.no",
           "image": "/symbols/mulberry/no.svg",
-          "backgroundColor": "#ef9a9a"
+          "id": "SkBQMRqpX5t-",
+          "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "id": "4e3e17c2",
-          "label": "here",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/here.svg",
-          "backgroundColor": "#90caf9"
+          "labelKey": "cboard.symbol.quickChat",
+          "image": "/symbols/cboard/speech_bubble.svg",
+          "loadBoard": "BJgYav2vp-",
+          "id": "S1LQGA9p7qK-",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "4be4c888",
-          "label": "what",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/what.svg",
-          "backgroundColor": "#ce93d8"
+          "labelKey": "cboard.symbol.time",
+          "image": "/symbols/mulberry/clock.svg",
+          "loadBoard": "BJRtpPnP6b",
+          "id": "H1w7M096m5Kb",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "a474d5fd",
-          "label": "all done",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/finished.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "925b01e9",
-          "label": "on",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/on.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "be51cf7f",
-          "label": "in",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/in.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "54816e11",
-          "label": "off",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/off.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "895c931e",
-          "label": "out",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/out.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "04035357",
-          "label": "some",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/some.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "9000e746",
-          "label": "is",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/is.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c65bbf5b",
-          "label": "who",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/who.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "4ee282e1",
-          "label": "Food",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.foodBreadsAndBaking.food",
           "image": "/symbols/mulberry/food.svg",
-          "backgroundColor": "#ffab91",
-          "loadBoard": "r1-FTvnvaW"
+          "loadBoard": "r1-FTvnvaW",
+          "id": "rk_mf0c6Q9FZ",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "8d86f57f",
-          "label": "Feelings",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.drinkDescription.drinks",
+          "image": "/symbols/mulberry/drinks.svg",
+          "loadBoard": "HJmKTw2vT-",
+          "id": "HJt7zAcTXqtb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.snacks",
+          "image": "/symbols/mulberry/jelly_beans.svg",
+          "loadBoard": "HkBY6DhwTW",
+          "id": "SJcmMRqpQcKZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.activities",
+          "image": "/symbols/cboard/activities.svg",
+          "loadBoard": "BkmeFaw3DpZ",
+          "id": "HJCmMR96XcYZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.emotions",
           "image": "/symbols/cboard/emotions.svg",
-          "backgroundColor": "#f48fb1",
-          "loadBoard": "HkYF6DnP6-"
+          "loadBoard": "HkYF6DnP6-",
+          "id": "ByomfA5am5tb",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "cfcf6952",
-          "label": "People",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "cboard.symbol.body",
+          "image": "/symbols/mulberry/body_outline.svg",
+          "loadBoard": "rJ3FTw2D6b",
+          "id": "S127zA5TQ5Fb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.clothing",
+          "image": "/symbols/mulberry/generic_clothes.svg",
+          "loadBoard": "BJ5KawhwTZ",
+          "id": "SJTmf05a75YW",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.people",
           "image": "/symbols/cboard/people.svg",
-          "backgroundColor": "#fff176",
-          "loadBoard": "SkUlYTw3wT-"
+          "loadBoard": "SkUlYTw3wT-",
+          "id": "HkJNz0c6QqtZ",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "042cb424",
-          "label": "Places",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/places.svg",
-          "backgroundColor": "#80cbc4",
-          "loadBoard": "S1uxKpvhPpb"
+          "labelKey": "cboard.symbol.describe",
+          "image": "/symbols/mulberry/shapesorter.svg",
+          "loadBoard": "HkclK6DnDTb",
+          "id": "S1lVGRqTQ9KW",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "db2fa742",
-          "label": "Things",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "cboard.symbol.kitchen",
           "image": "/symbols/cboard/kitchen_items.svg",
-          "backgroundColor": "#b0bec5",
-          "loadBoard": "BJ2lK6v3DaZ"
+          "loadBoard": "BJ2lK6v3DaZ",
+          "id": "ry-EM0caXqY-",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "3c0d7032",
-          "label": "Animals",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.buildingSchool.school",
+          "image": "/symbols/mulberry/school.svg",
+          "loadBoard": "S1VlYTPnwTZ",
+          "id": "HJzEf09pmqYZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.animals",
           "image": "/symbols/cboard/animals.svg",
-          "backgroundColor": "#a5d6a7",
-          "loadBoard": "ry1eFpwhDp-"
+          "loadBoard": "ry1eFpwhDp-",
+          "id": "S1X4MA5pmqYW",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "symbol.electricalGeneral.technology",
+          "image": "/symbols/mulberry/technology.svg",
+          "loadBoard": "rypgFTD3wT-",
+          "id": "H1ENGA9amqtW",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.weather",
+          "image": "/symbols/cboard/weather.svg",
+          "loadBoard": "H1y-FaPnvaW",
+          "id": "rkBEf05pXctZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.plants",
+          "image": "/symbols/cboard/plants.svg",
+          "loadBoard": "Bye-FTD2vpZ",
+          "id": "SJ8NGAq675K-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.sports",
+          "image": "/symbols/cboard/sports.svg",
+          "loadBoard": "Hy-bFTw3vT-",
+          "id": "HyvEGA5pm5Kb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.transport",
+          "image": "/symbols/mulberry/travel.svg",
+          "loadBoard": "HJfWFav3vp-",
+          "id": "SyuVzRc675K-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.places",
+          "image": "/symbols/mulberry/globe.svg",
+          "loadBoard": "S1uxKpvhPpb",
+          "id": "SJFNzA96X9tZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.position",
+          "image": "/symbols/cboard/position.svg",
+          "loadBoard": "SkNbtaP3vaZ",
+          "id": "rkcVM0q6m5tb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "symbol.leisureToys.toys",
+          "image": "/symbols/mulberry/toys.svg",
+          "loadBoard": "HkslFaD3PTZ",
+          "id": "rysVGCcaX5t-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.actions",
+          "image": "/symbols/cboard/actions.svg",
+          "loadBoard": "SywlK6Phv6Z",
+          "id": "Bk2EzA5amqFb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.questions",
+          "image": "/symbols/mulberry/ask_,_to.svg",
+          "loadBoard": "B1SWKaDhPpZ",
+          "id": "B1TNzCcp79Y-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "symbol.buildingFurniture.furniture",
+          "image": "/symbols/mulberry/furniture.svg",
+          "loadBoard": "Syc-KawhDa-",
+          "id": "rkR4fRcam5Fb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.hygiene",
+          "image": "/symbols/cboard/personal_hygiene.svg",
+          "loadBoard": "H1iZY6DnvT-",
+          "id": "BykSMA5TmcKZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.numbers",
+          "image": "/symbols/mulberry/count_,_to.svg",
+          "loadBoard": "H1bgYTD2DaW",
+          "id": "r1xSzC9T7qYW",
+          "backgroundColor": "rgb(187, 222, 251)"
         }
       ],
-      "isPublic": false,
-      "grid": {
-        "rows": 5,
-        "columns": 6,
-        "order": [
-          [
-            "892b4b6c",
-            "0d9e926d",
-            "442eec80",
-            "f28ead9b",
-            "cb3de963",
-            "74a9f387"
-          ],
-          [
-            "c278a12f",
-            "81876582",
-            "2f8328a1",
-            "94c23a81",
-            "2f9f2bdb",
-            "e3776bcb"
-          ],
-          [
-            "506dd6c5",
-            "4e3e17c2",
-            "4be4c888",
-            "a474d5fd",
-            "925b01e9",
-            "be51cf7f"
-          ],
-          [
-            "54816e11",
-            "895c931e",
-            "04035357",
-            "9000e746",
-            "c65bbf5b",
-            "4ee282e1"
-          ],
-          [
-            "8d86f57f",
-            "cfcf6952",
-            "042cb424",
-            "db2fa742",
-            "3c0d7032",
-            null
-          ]
-        ]
-      },
-      "caption": "Core Vocabulary - Research Based (Banajee et al. 2003)"
-    },
-    {
-      "id": "mybuddy-level2",
-      "name": "My Buddy Level 2",
-      "tiles": [
-        {
-          "id": "892b4b6c",
-          "label": "I",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/i_-_me.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "0d9e926d",
-          "label": "you",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/you.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "442eec80",
-          "label": "my",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/my_-_mine.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "f28ead9b",
-          "label": "it",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/it.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "cb3de963",
-          "label": "that",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/that.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "74a9f387",
-          "label": "want",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_want.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c278a12f",
-          "label": "go",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_go.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "81876582",
-          "label": "help",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_help.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2f8328a1",
-          "label": "like",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_like.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "94c23a81",
-          "label": "stop",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/stop.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "2f9f2bdb",
-          "label": "more",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/more.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "e3776bcb",
-          "label": "yes",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/correct.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "506dd6c5",
-          "label": "no",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/no.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "4e3e17c2",
-          "label": "here",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/here.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "4be4c888",
-          "label": "what",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/what.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "a474d5fd",
-          "label": "all done",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/finished.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "925b01e9",
-          "label": "on",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/on.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "be51cf7f",
-          "label": "in",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/in.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "54816e11",
-          "label": "off",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/off.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "895c931e",
-          "label": "out",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/out.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "04035357",
-          "label": "some",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/some.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "9000e746",
-          "label": "is",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/is.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c65bbf5b",
-          "label": "who",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/who.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "4ee282e1",
-          "label": "Food",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/food.svg",
-          "backgroundColor": "#ffab91",
-          "loadBoard": "r1-FTvnvaW"
-        },
-        {
-          "id": "8d86f57f",
-          "label": "Feelings",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/emotions.svg",
-          "backgroundColor": "#f48fb1",
-          "loadBoard": "HkYF6DnP6-"
-        },
-        {
-          "id": "cfcf6952",
-          "label": "People",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/people.svg",
-          "backgroundColor": "#fff176",
-          "loadBoard": "SkUlYTw3wT-"
-        },
-        {
-          "id": "042cb424",
-          "label": "Places",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/places.svg",
-          "backgroundColor": "#80cbc4",
-          "loadBoard": "S1uxKpvhPpb"
-        },
-        {
-          "id": "db2fa742",
-          "label": "Things",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/kitchen_items.svg",
-          "backgroundColor": "#b0bec5",
-          "loadBoard": "BJ2lK6v3DaZ"
-        },
-        {
-          "id": "3c0d7032",
-          "label": "Animals",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/animals.svg",
-          "backgroundColor": "#a5d6a7",
-          "loadBoard": "ry1eFpwhDp-"
-        },
-        {
-          "id": "92d98f91",
-          "label": "eat",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_eat.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2aa778f1",
-          "label": "drink",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_drink.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "98caed7d",
-          "label": "play",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_play.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "b79dc20b",
-          "label": "open",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_open.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "a96c4420",
-          "label": "look",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_look.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c50b3580",
-          "label": "come",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_come.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "58c755e1",
-          "label": "give",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_give.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "0b89eaa9",
-          "label": "make",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_make.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "49464fc1",
-          "label": "get",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_get.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2a3fba50",
-          "label": "see",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_see.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "9649e880",
-          "label": "put",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_put.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "3d193fcb",
-          "label": "do",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_do.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "5c2e4515",
-          "label": "read",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_read.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "498f26f4",
-          "label": "turn",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_turn.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "5123d276",
-          "label": "me",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/me.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "8ddef46f",
-          "label": "mom",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/mother.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "65718fc7",
-          "label": "dad",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/father.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "81c55543",
-          "label": "happy",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/happy.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "91c5f6eb",
-          "label": "sad",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/sad.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "ec6f8cd3",
-          "label": "hurt",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/pain.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "7ceedf8e",
-          "label": "big",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/big.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "65ac27f5",
-          "label": "little",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/little.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "014ab01d",
-          "label": "up",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/up.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "8aea87bd",
-          "label": "down",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/down.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "04ba4e07",
-          "label": "where",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/where.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "00883d43",
-          "label": "this",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/this.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "e1a832f9",
-          "label": "there",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/there.svg",
-          "backgroundColor": "#90caf9"
-        }
-      ],
-      "isPublic": false,
-      "grid": {
-        "rows": 8,
-        "columns": 7,
-        "order": [
-          [
-            "892b4b6c",
-            "0d9e926d",
-            "442eec80",
-            "f28ead9b",
-            "cb3de963",
-            "74a9f387",
-            "c278a12f"
-          ],
-          [
-            "81876582",
-            "2f8328a1",
-            "94c23a81",
-            "2f9f2bdb",
-            "e3776bcb",
-            "506dd6c5",
-            "4e3e17c2"
-          ],
-          [
-            "4be4c888",
-            "a474d5fd",
-            "925b01e9",
-            "be51cf7f",
-            "54816e11",
-            "895c931e",
-            "04035357"
-          ],
-          [
-            "9000e746",
-            "c65bbf5b",
-            "4ee282e1",
-            "8d86f57f",
-            "cfcf6952",
-            "042cb424",
-            "db2fa742"
-          ],
-          [
-            "3c0d7032",
-            "92d98f91",
-            "2aa778f1",
-            "98caed7d",
-            "b79dc20b",
-            "a96c4420",
-            "c50b3580"
-          ],
-          [
-            "58c755e1",
-            "0b89eaa9",
-            "49464fc1",
-            "2a3fba50",
-            "9649e880",
-            "3d193fcb",
-            "5c2e4515"
-          ],
-          [
-            "498f26f4",
-            "5123d276",
-            "8ddef46f",
-            "65718fc7",
-            "81c55543",
-            "91c5f6eb",
-            "ec6f8cd3"
-          ],
-          [
-            "7ceedf8e",
-            "65ac27f5",
-            "014ab01d",
-            "8aea87bd",
-            "04ba4e07",
-            "00883d43",
-            "e1a832f9"
-          ]
-        ]
-      },
-      "caption": "Expanded Core Vocabulary - 50 words"
+      "caption": "/symbols/cboard/cboardRoot.png"
     },
     {
       "id": "BJgYav2vp-",
@@ -6098,828 +5480,6 @@
         }
       ],
       "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763764_9b1b336c1684_birds.png"
-    }
-  ],
-  "mybuddy": [
-    {
-      "id": "root",
-      "name": "My Buddy Home",
-      "tiles": [
-        {
-          "id": "892b4b6c",
-          "label": "I",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/i_-_me.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "0d9e926d",
-          "label": "you",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/you.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "442eec80",
-          "label": "my",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/my_-_mine.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "f28ead9b",
-          "label": "it",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/it.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "cb3de963",
-          "label": "that",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/that.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "74a9f387",
-          "label": "want",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_want.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c278a12f",
-          "label": "go",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_go.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "81876582",
-          "label": "help",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_help.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2f8328a1",
-          "label": "like",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_like.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "94c23a81",
-          "label": "stop",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/stop.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "2f9f2bdb",
-          "label": "more",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/more.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "e3776bcb",
-          "label": "yes",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/correct.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "506dd6c5",
-          "label": "no",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/no.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "4e3e17c2",
-          "label": "here",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/here.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "4be4c888",
-          "label": "what",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/what.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "a474d5fd",
-          "label": "all done",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/finished.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "925b01e9",
-          "label": "on",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/on.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "be51cf7f",
-          "label": "in",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/in.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "54816e11",
-          "label": "off",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/off.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "895c931e",
-          "label": "out",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/out.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "04035357",
-          "label": "some",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/some.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "9000e746",
-          "label": "is",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/is.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c65bbf5b",
-          "label": "who",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/who.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "4ee282e1",
-          "label": "Food",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/food.svg",
-          "backgroundColor": "#ffab91"
-        },
-        {
-          "id": "8d86f57f",
-          "label": "Feelings",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/emotions.svg",
-          "backgroundColor": "#f48fb1"
-        },
-        {
-          "id": "cfcf6952",
-          "label": "People",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/people.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "042cb424",
-          "label": "Places",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/places.svg",
-          "backgroundColor": "#80cbc4"
-        },
-        {
-          "id": "db2fa742",
-          "label": "Things",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/kitchen_items.svg",
-          "backgroundColor": "#b0bec5"
-        },
-        {
-          "id": "3c0d7032",
-          "label": "Animals",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/animals.svg",
-          "backgroundColor": "#a5d6a7"
-        }
-      ],
-      "isPublic": false,
-      "grid": {
-        "rows": 5,
-        "columns": 6,
-        "order": [
-          [
-            "892b4b6c",
-            "0d9e926d",
-            "442eec80",
-            "f28ead9b",
-            "cb3de963",
-            "74a9f387"
-          ],
-          [
-            "c278a12f",
-            "81876582",
-            "2f8328a1",
-            "94c23a81",
-            "2f9f2bdb",
-            "e3776bcb"
-          ],
-          [
-            "506dd6c5",
-            "4e3e17c2",
-            "4be4c888",
-            "a474d5fd",
-            "925b01e9",
-            "be51cf7f"
-          ],
-          [
-            "54816e11",
-            "895c931e",
-            "04035357",
-            "9000e746",
-            "c65bbf5b",
-            "4ee282e1"
-          ],
-          [
-            "8d86f57f",
-            "cfcf6952",
-            "042cb424",
-            "db2fa742",
-            "3c0d7032",
-            null
-          ]
-        ]
-      },
-      "caption": "Core Vocabulary - Research Based (Banajee et al. 2003)"
-    },
-    {
-      "id": "mybuddy-level2",
-      "name": "My Buddy Level 2",
-      "tiles": [
-        {
-          "id": "892b4b6c",
-          "label": "I",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/i_-_me.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "0d9e926d",
-          "label": "you",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/you.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "442eec80",
-          "label": "my",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/my_-_mine.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "f28ead9b",
-          "label": "it",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/it.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "cb3de963",
-          "label": "that",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/that.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "74a9f387",
-          "label": "want",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_want.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c278a12f",
-          "label": "go",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_go.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "81876582",
-          "label": "help",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_help.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2f8328a1",
-          "label": "like",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_like.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "94c23a81",
-          "label": "stop",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/stop.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "2f9f2bdb",
-          "label": "more",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/more.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "e3776bcb",
-          "label": "yes",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/correct.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "506dd6c5",
-          "label": "no",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/no.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "4e3e17c2",
-          "label": "here",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/here.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "4be4c888",
-          "label": "what",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/what.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "a474d5fd",
-          "label": "all done",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/finished.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "925b01e9",
-          "label": "on",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/on.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "be51cf7f",
-          "label": "in",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/in.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "54816e11",
-          "label": "off",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/off.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "895c931e",
-          "label": "out",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/out.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "04035357",
-          "label": "some",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/some.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "9000e746",
-          "label": "is",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/is.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c65bbf5b",
-          "label": "who",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/who.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "4ee282e1",
-          "label": "Food",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/food.svg",
-          "backgroundColor": "#ffab91"
-        },
-        {
-          "id": "8d86f57f",
-          "label": "Feelings",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/emotions.svg",
-          "backgroundColor": "#f48fb1"
-        },
-        {
-          "id": "cfcf6952",
-          "label": "People",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/people.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "042cb424",
-          "label": "Places",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/places.svg",
-          "backgroundColor": "#80cbc4"
-        },
-        {
-          "id": "db2fa742",
-          "label": "Things",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/kitchen_items.svg",
-          "backgroundColor": "#b0bec5"
-        },
-        {
-          "id": "3c0d7032",
-          "label": "Animals",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/animals.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "92d98f91",
-          "label": "eat",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_eat.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2aa778f1",
-          "label": "drink",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_drink.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "98caed7d",
-          "label": "play",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_play.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "b79dc20b",
-          "label": "open",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_open.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "a96c4420",
-          "label": "look",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_look.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c50b3580",
-          "label": "come",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_come.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "58c755e1",
-          "label": "give",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_give.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "0b89eaa9",
-          "label": "make",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_make.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "49464fc1",
-          "label": "get",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_get.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "2a3fba50",
-          "label": "see",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_see.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "9649e880",
-          "label": "put",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_put.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "3d193fcb",
-          "label": "do",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_do.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "5c2e4515",
-          "label": "read",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_read.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "498f26f4",
-          "label": "turn",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/to_turn.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "5123d276",
-          "label": "me",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/me.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "8ddef46f",
-          "label": "mom",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/mother.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "65718fc7",
-          "label": "dad",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/father.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "81c55543",
-          "label": "happy",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/happy.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "91c5f6eb",
-          "label": "sad",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/sad.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "ec6f8cd3",
-          "label": "hurt",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/pain.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "7ceedf8e",
-          "label": "big",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/big.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "65ac27f5",
-          "label": "little",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/little.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "014ab01d",
-          "label": "up",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/up.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "8aea87bd",
-          "label": "down",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/down.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "04ba4e07",
-          "label": "where",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/where.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "00883d43",
-          "label": "this",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/this.svg",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "e1a832f9",
-          "label": "there",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/there.svg",
-          "backgroundColor": "#90caf9"
-        }
-      ],
-      "isPublic": false,
-      "grid": {
-        "rows": 8,
-        "columns": 7,
-        "order": [
-          [
-            "892b4b6c",
-            "0d9e926d",
-            "442eec80",
-            "f28ead9b",
-            "cb3de963",
-            "74a9f387",
-            "c278a12f"
-          ],
-          [
-            "81876582",
-            "2f8328a1",
-            "94c23a81",
-            "2f9f2bdb",
-            "e3776bcb",
-            "506dd6c5",
-            "4e3e17c2"
-          ],
-          [
-            "4be4c888",
-            "a474d5fd",
-            "925b01e9",
-            "be51cf7f",
-            "54816e11",
-            "895c931e",
-            "04035357"
-          ],
-          [
-            "9000e746",
-            "c65bbf5b",
-            "4ee282e1",
-            "8d86f57f",
-            "cfcf6952",
-            "042cb424",
-            "db2fa742"
-          ],
-          [
-            "3c0d7032",
-            "92d98f91",
-            "2aa778f1",
-            "98caed7d",
-            "b79dc20b",
-            "a96c4420",
-            "c50b3580"
-          ],
-          [
-            "58c755e1",
-            "0b89eaa9",
-            "49464fc1",
-            "2a3fba50",
-            "9649e880",
-            "3d193fcb",
-            "5c2e4515"
-          ],
-          [
-            "498f26f4",
-            "5123d276",
-            "8ddef46f",
-            "65718fc7",
-            "81c55543",
-            "91c5f6eb",
-            "ec6f8cd3"
-          ],
-          [
-            "7ceedf8e",
-            "65ac27f5",
-            "014ab01d",
-            "8aea87bd",
-            "04ba4e07",
-            "00883d43",
-            "e1a832f9"
-          ]
-        ]
-      },
-      "caption": "Expanded Core Vocabulary - 50 words"
     }
   ]
 }
