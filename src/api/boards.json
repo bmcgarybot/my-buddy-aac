@@ -3,295 +3,217 @@
   "advanced": [
     {
       "id": "root",
-      "name": "My Buddy Home",
-      "nameKey": "",
+      "name": "Cboard Classic Home",
+      "nameKey": "cboard.board.home",
+      "author": "Cboard",
+      "description": "rootBoardDescription",
+      "email": "support@cboard.io",
+      "isPublic": false,
+      "hidden": false,
       "tiles": [
         {
-          "id": "124938fb",
-          "label": "I",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/6442/_6442_300.png",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "30974678",
-          "label": "you",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/6658/_6658_300.png",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "acddbb09",
-          "label": "my",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/36838/_36838_300.png",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "7ea7046d",
-          "label": "it",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/36259/_36259_300.png",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "81d5e626",
-          "label": "that",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/6557/_6557_300.png",
-          "backgroundColor": "#fff176"
-        },
-        {
-          "id": "aed767ee",
-          "label": "want",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/want_,_to.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "c4668c14",
-          "label": "go",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/go_,_to.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "e3b4f980",
-          "label": "help",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/help_,_to.svg",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "b0d5c370",
-          "label": "like",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/5765/_5765_300.png",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "527267a4",
-          "label": "stop",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/37434/_37434_300.png",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "4534ed2a",
-          "label": "more",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/more.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "6551955c",
-          "label": "yes",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "cboard.symbol.yes",
           "image": "/symbols/mulberry/correct.svg",
-          "backgroundColor": "#a5d6a7"
+          "id": "HJVQMR9pX5F-",
+          "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "id": "9d3a5c82",
-          "label": "no",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.descriptiveState.no",
           "image": "/symbols/mulberry/no.svg",
-          "backgroundColor": "#ef9a9a"
+          "id": "SkBQMRqpX5t-",
+          "backgroundColor": "rgb(255, 241, 118)"
         },
         {
-          "id": "e1731e47",
-          "label": "here",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/36257/_36257_300.png",
-          "backgroundColor": "#90caf9"
+          "labelKey": "cboard.symbol.quickChat",
+          "image": "/symbols/cboard/speech_bubble.svg",
+          "loadBoard": "BJgYav2vp-",
+          "id": "S1LQGA9p7qK-",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "ccd33df5",
-          "label": "what",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/what.svg",
-          "backgroundColor": "#ce93d8"
+          "labelKey": "cboard.symbol.time",
+          "image": "/symbols/mulberry/clock.svg",
+          "loadBoard": "BJRtpPnP6b",
+          "id": "H1w7M096m5Kb",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "7913b1e3",
-          "label": "all done",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/finish.svg",
-          "backgroundColor": "#ef9a9a"
-        },
-        {
-          "id": "9f1e681b",
-          "label": "on",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/on.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "596d9b45",
-          "label": "in",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/in.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "4fedcda7",
-          "label": "off",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/off.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "b5f5f602",
-          "label": "out",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/out.svg",
-          "backgroundColor": "#90caf9"
-        },
-        {
-          "id": "0992f8dc",
-          "label": "some",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/some.svg",
-          "backgroundColor": "#ffcc80"
-        },
-        {
-          "id": "71c24177",
-          "label": "is",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "https://static.arasaac.org/pictograms/36260/_36260_300.png",
-          "backgroundColor": "#a5d6a7"
-        },
-        {
-          "id": "86f89766",
-          "label": "who",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/mulberry/who.svg",
-          "backgroundColor": "#ce93d8"
-        },
-        {
-          "id": "6b53eef2",
-          "label": "Food",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.foodBreadsAndBaking.food",
           "image": "/symbols/mulberry/food.svg",
-          "backgroundColor": "#ffab91",
-          "loadBoard": "r1-FTvnvaW"
+          "loadBoard": "r1-FTvnvaW",
+          "id": "rk_mf0c6Q9FZ",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "be091371",
-          "label": "Feelings",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.drinkDescription.drinks",
+          "image": "/symbols/mulberry/drinks.svg",
+          "loadBoard": "HJmKTw2vT-",
+          "id": "HJt7zAcTXqtb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.snacks",
+          "image": "/symbols/mulberry/jelly_beans.svg",
+          "loadBoard": "HkBY6DhwTW",
+          "id": "SJcmMRqpQcKZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.activities",
+          "image": "/symbols/cboard/activities.svg",
+          "loadBoard": "BkmeFaw3DpZ",
+          "id": "HJCmMR96XcYZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.emotions",
           "image": "/symbols/cboard/emotions.svg",
-          "backgroundColor": "#f48fb1",
-          "loadBoard": "HkYF6DnP6-"
+          "loadBoard": "HkYF6DnP6-",
+          "id": "ByomfA5am5tb",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "bb9dd9c4",
-          "label": "People",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "cboard.symbol.body",
+          "image": "/symbols/mulberry/body_outline.svg",
+          "loadBoard": "rJ3FTw2D6b",
+          "id": "S127zA5TQ5Fb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.clothing",
+          "image": "/symbols/mulberry/generic_clothes.svg",
+          "loadBoard": "BJ5KawhwTZ",
+          "id": "SJTmf05a75YW",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.people",
           "image": "/symbols/cboard/people.svg",
-          "backgroundColor": "#fff176",
-          "loadBoard": "SkUlYTw3wT-"
+          "loadBoard": "SkUlYTw3wT-",
+          "id": "HkJNz0c6QqtZ",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "f09f967f",
-          "label": "Places",
-          "labelKey": "",
-          "vocalization": "",
-          "image": "/symbols/cboard/position.svg",
-          "backgroundColor": "#80cbc4",
-          "loadBoard": "S1uxKpvhPpb"
+          "labelKey": "cboard.symbol.describe",
+          "image": "/symbols/mulberry/shapesorter.svg",
+          "loadBoard": "HkclK6DnDTb",
+          "id": "S1lVGRqTQ9KW",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "3cfd33bf",
-          "label": "Things",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "cboard.symbol.kitchen",
           "image": "/symbols/cboard/kitchen_items.svg",
-          "backgroundColor": "#b0bec5",
-          "loadBoard": "BJ2lK6v3DaZ"
+          "loadBoard": "BJ2lK6v3DaZ",
+          "id": "ry-EM0caXqY-",
+          "backgroundColor": "rgb(187, 222, 251)"
         },
         {
-          "id": "507801b8",
-          "label": "Animals",
-          "labelKey": "",
-          "vocalization": "",
+          "labelKey": "symbol.buildingSchool.school",
+          "image": "/symbols/mulberry/school.svg",
+          "loadBoard": "S1VlYTPnwTZ",
+          "id": "HJzEf09pmqYZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.animals",
           "image": "/symbols/cboard/animals.svg",
-          "backgroundColor": "#a5d6a7",
-          "loadBoard": "ry1eFpwhDp-"
+          "loadBoard": "ry1eFpwhDp-",
+          "id": "S1X4MA5pmqYW",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "symbol.electricalGeneral.technology",
+          "image": "/symbols/mulberry/technology.svg",
+          "loadBoard": "rypgFTD3wT-",
+          "id": "H1ENGA9amqtW",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.weather",
+          "image": "/symbols/cboard/weather.svg",
+          "loadBoard": "H1y-FaPnvaW",
+          "id": "rkBEf05pXctZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.plants",
+          "image": "/symbols/cboard/plants.svg",
+          "loadBoard": "Bye-FTD2vpZ",
+          "id": "SJ8NGAq675K-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.sports",
+          "image": "/symbols/cboard/sports.svg",
+          "loadBoard": "Hy-bFTw3vT-",
+          "id": "HyvEGA5pm5Kb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.transport",
+          "image": "/symbols/mulberry/travel.svg",
+          "loadBoard": "HJfWFav3vp-",
+          "id": "SyuVzRc675K-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.places",
+          "image": "/symbols/mulberry/globe.svg",
+          "loadBoard": "S1uxKpvhPpb",
+          "id": "SJFNzA96X9tZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.position",
+          "image": "/symbols/cboard/position.svg",
+          "loadBoard": "SkNbtaP3vaZ",
+          "id": "rkcVM0q6m5tb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "symbol.leisureToys.toys",
+          "image": "/symbols/mulberry/toys.svg",
+          "loadBoard": "HkslFaD3PTZ",
+          "id": "rysVGCcaX5t-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.actions",
+          "image": "/symbols/cboard/actions.svg",
+          "loadBoard": "SywlK6Phv6Z",
+          "id": "Bk2EzA5amqFb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.questions",
+          "image": "/symbols/mulberry/ask_,_to.svg",
+          "loadBoard": "B1SWKaDhPpZ",
+          "id": "B1TNzCcp79Y-",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "symbol.buildingFurniture.furniture",
+          "image": "/symbols/mulberry/furniture.svg",
+          "loadBoard": "Syc-KawhDa-",
+          "id": "rkR4fRcam5Fb",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.hygiene",
+          "image": "/symbols/cboard/personal_hygiene.svg",
+          "loadBoard": "H1iZY6DnvT-",
+          "id": "BykSMA5TmcKZ",
+          "backgroundColor": "rgb(187, 222, 251)"
+        },
+        {
+          "labelKey": "cboard.symbol.numbers",
+          "image": "/symbols/mulberry/count_,_to.svg",
+          "loadBoard": "H1bgYTD2DaW",
+          "id": "r1xSzC9T7qYW",
+          "backgroundColor": "rgb(187, 222, 251)"
         }
       ],
-      "isPublic": false,
-      "grid": {
-        "rows": 5,
-        "columns": 6,
-        "order": [
-          [
-            "124938fb",
-            "30974678",
-            "acddbb09",
-            "7ea7046d",
-            "81d5e626",
-            "aed767ee"
-          ],
-          [
-            "c4668c14",
-            "e3b4f980",
-            "b0d5c370",
-            "527267a4",
-            "4534ed2a",
-            "6551955c"
-          ],
-          [
-            "9d3a5c82",
-            "e1731e47",
-            "ccd33df5",
-            "7913b1e3",
-            "9f1e681b",
-            "596d9b45"
-          ],
-          [
-            "4fedcda7",
-            "b5f5f602",
-            "0992f8dc",
-            "71c24177",
-            "86f89766",
-            "6b53eef2"
-          ],
-          [
-            "be091371",
-            "bb9dd9c4",
-            "f09f967f",
-            "3cfd33bf",
-            "507801b8",
-            null
-          ]
-        ]
-      }
+      "caption": "/symbols/cboard/cboardRoot.png"
     },
     {
       "id": "BJgYav2vp-",
