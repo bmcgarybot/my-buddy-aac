@@ -14,25 +14,25 @@
    "tiles": [
     {
      "labelKey": "I",
-     "image": "/symbols/mulberry/correct.svg",
+     "image": "/symbols/mulberry/i_-_upper_case.svg",
      "id": "61886e66-324",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "you",
-     "image": "/symbols/mulberry/correct.svg",
+     "image": "/symbols/mulberry/young.svg",
      "id": "44e77c80-bf4",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "my",
-     "image": "/symbols/mulberry/correct.svg",
+     "image": "/symbols/mulberry/my_computer_icon.svg",
      "id": "62b855a0-173",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "it",
-     "image": "/symbols/mulberry/correct.svg",
+     "image": "/symbols/mulberry/it_room.svg",
      "id": "277ae110-0c9",
      "backgroundColor": "rgb(255, 241, 118)"
     },
@@ -62,13 +62,13 @@
     },
     {
      "labelKey": "like",
-     "image": "/symbols/mulberry/correct.svg",
+     "image": "/symbols/mulberry/intellikeys.svg",
      "id": "615adb25-46c",
      "backgroundColor": "rgb(165, 214, 167)"
     },
     {
      "labelKey": "stop",
-     "image": "/symbols/mulberry/no.svg",
+     "image": "/symbols/mulberry/backstop.svg",
      "id": "7f72546f-d93",
      "backgroundColor": "rgb(239, 154, 154)"
     },
@@ -80,7 +80,7 @@
     },
     {
      "labelKey": "yes",
-     "image": "/symbols/mulberry/correct.svg",
+     "image": "/symbols/mulberry/eyes.svg",
      "id": "923f1761-b10",
      "backgroundColor": "rgb(165, 214, 167)"
     },
@@ -92,7 +92,7 @@
     },
     {
      "labelKey": "here",
-     "image": "/symbols/mulberry/on.svg",
+     "image": "/symbols/mulberry/where.svg",
      "id": "71af7e76-e5e",
      "backgroundColor": "rgb(144, 202, 249)"
     },
@@ -140,7 +140,7 @@
     },
     {
      "labelKey": "is",
-     "image": "/symbols/mulberry/on.svg",
+     "image": "/symbols/mulberry/is_this_enough.svg",
      "id": "c4805ec1-293",
      "backgroundColor": "rgb(165, 214, 167)"
     },
@@ -166,14 +166,14 @@
     },
     {
      "labelKey": "People",
-     "image": "/symbols/mulberry/family.svg",
+     "image": "/symbols/mulberry/dinner_people_3.svg",
      "loadBoard": "SkUlYTw3wT-",
      "id": "7e88fb06-939",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "Places",
-     "image": "/symbols/mulberry/globe.svg",
+     "image": "/symbols/mulberry/where.svg",
      "loadBoard": "S1uxKpvhPpb",
      "id": "3f800d46-bd6",
      "backgroundColor": "rgb(187, 222, 251)"
