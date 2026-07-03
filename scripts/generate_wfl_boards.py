@@ -33,15 +33,21 @@ ORG="rgb(255,183,77)";  GRY="rgb(224,224,224)"; WHT="rgb(250,250,250)"
 def w(label, spec, color, load=None):
     return {"label": label, "spec": spec, "color": color, "load": load}
 
+# Pronoun first-hits open sequenced pages (LAMP: 2nd hit = aux/verb combos)
+def pr(label, sym):  # pronoun tile -> its second-hit page
+    return w(label, sym, YEL, f"wfl-p-{label.lower()}")
+
 # ── THE 84-LOCATION MAIN GRID (7 rows x 12 cols) ──
+# Structure follows the owner's son's real WFL device (screenshots):
+# pronouns down the LEFT column, grammar keys as first-class cells.
 LAYOUT = [
- [w("I","i",YEL),w("you","you",YEL),w("my","my",YEL),w("it","it",YEL),w("we","we",YEL),w("he","he",YEL),w("she","she",YEL),w("they","they",YEL),w("what","what",PUR),w("who","who",PUR),w("where",("where",),PUR),w("when","when",PUR)],
- [w("want","want",GRN),w("like","like",GRN),w("go","go",GRN),w("get","get",GRN),w("help","help",GRN),w("make","make",GRN),w("eat",("eat","eating","dinner"),GRN),w("drink","drink",GRN),w("play","play",GRN),w("stop","stop",RED),w("more","more",GRN),w("again","again",GRN)],
- [w("do","do",GRN),w("can","can",GRN),w("put","put",GRN),w("give","give",GRN),w("take","take",GRN),w("look","look",GRN),w("say","say",GRN),w("feel","feel",GRN),w("know","know",GRN),w("open","open",GRN),w("turn","turn",GRN),w("come","come",GRN)],
- [w("is","is",GRY),w("not","not",RED),w("this","this",YEL),w("that","that",YEL),w("big","big",BLU),w("little","little",BLU),w("good","good",BLU),w("bad","bad",BLU),w("hot","hot",BLU),w("cold","cold",BLU),w("fast","fast",BLU),w("slow","slow",BLU)],
- [w("on","on",PNK),w("in","in",PNK),w("off","off",PNK),w("out","out",PNK),w("up","up",PNK),w("down","down",PNK),w("here","here",PNK),w("some","some",BLU),w("all","all",BLU),w("now","now",BLU),w("later","later",BLU),w("why","why",PUR)],
- [w("yes","yes",GRN),w("no","no",RED),w("please","please",WHT),w("thank you","thank_you",WHT),w("hi","hi",WHT),w("bye","bye",WHT),w("love","love",WHT),w("same","same",BLU),w("different","different",BLU),w("how","how",PUR),w("all done","all_done",GRN),w("sleep","sleep",GRN)],
- [w("Food",("food",),ORG,"wfl-food"),w("Feelings","happy",ORG,"wfl-feelings"),w("People","people",ORG,"wfl-people"),w("Places","places",ORG,"wfl-places"),w("Things","things",ORG,"wfl-things"),w("Animals","animals",ORG,"wfl-animals"),w("Body","body",ORG,"wfl-body"),w("Clothes","clothes",ORG,"wfl-clothes"),w("School","school",ORG,"wfl-school"),w("Colors","colors",ORG,"wfl-colors"),w("read","read",GRN),w("wash","wash",GRN)],
+ [pr("I","i"),w("my","my",YEL),w("want","want",GRN),w("like","like",GRN),w("go","go",GRN),w("get","get",GRN),w("what","what",PUR),w("who","who",PUR),w("where",("where",),PUR),w("when","when",PUR),w("why","why",PUR),w("+S","plus_s","rgb(220,237,200)")],
+ [pr("you","you"),w("that","that",YEL),w("help","help",GRN),w("make","make",GRN),w("eat",("eat","eating","dinner"),GRN),w("drink","drink",GRN),w("play","play",GRN),w("stop","stop",RED),w("more","more",GRN),w("again","again",GRN),w("how","how",PUR),w("+ING","plus_ing","rgb(220,237,200)")],
+ [pr("he","he"),w("this","this",YEL),w("do","do",GRN),w("can","can",GRN),w("put","put",GRN),w("give","give",GRN),w("take","take",GRN),w("look","look",GRN),w("say","say",GRN),w("feel","feel",GRN),w("know","know",GRN),w("+ED","plus_ed","rgb(220,237,200)")],
+ [pr("she","she"),w("is","is",GRY),w("not","not",RED),w("open","open",GRN),w("turn","turn",GRN),w("come","come",GRN),w("big","big",BLU),w("little","little",BLU),w("good","good",BLU),w("bad","bad",BLU),w("hot","hot",BLU),w("+ER","plus_er","rgb(220,237,200)")],
+ [pr("it","it"),w("on","on",PNK),w("in","in",PNK),w("off","off",PNK),w("out","out",PNK),w("up","up",PNK),w("down","down",PNK),w("here","here",PNK),w("cold","cold",BLU),w("fast","fast",BLU),w("slow","slow",BLU),w("+EST","plus_est","rgb(220,237,200)")],
+ [pr("we","we"),w("yes","yes",GRN),w("no","no",RED),w("please","please",WHT),w("thank you","thank_you",WHT),w("hi","hi",WHT),w("bye","bye",WHT),w("love","love",WHT),w("some","some",BLU),w("all","all",BLU),w("all done","all_done",GRN),w("TO+","to_plus","rgb(220,237,200)")],
+ [pr("they","they"),w("Food",("food",),ORG,"wfl-food"),w("Feelings","happy",ORG,"wfl-feelings"),w("People","people",ORG,"wfl-people"),w("Places","places",ORG,"wfl-places"),w("Things","things",ORG,"wfl-things"),w("Animals","animals",ORG,"wfl-animals"),w("Body","body",ORG,"wfl-body"),w("Clothes","clothes",ORG,"wfl-clothes"),w("School","school",ORG,"wfl-school"),w("ABC","keyboard",WHT,"wfl-abc"),w("n't","nt",RED)],
 ]
 
 # ── SECOND-HIT PAGES (fixed 12-col grids, back always top-left) ──
@@ -79,6 +85,44 @@ for name,hexc in COLORS:
      f'<circle cx="24" cy="24" r="16" fill="{hexc}" stroke="#1a1a1a" stroke-width="3"/></svg>')
     PAGES["wfl-colors"].append(w(name, f"color_{name}", WHT))
 
+# Second-hit aux/verb combos per pronoun - mirrors the real WFL page where
+# tapping 'they' repopulates the grid with 'they want / they'll / they could'.
+AUX = [("want","want"),("like","like"),("go","go"),("need",("need","needs")),
+ ("have",("have","having")),("do","do"),("did","did"),("know","know"),
+ ("think",("think","thinking")),("feel","feel"),("love","love"),("hope","hope"),
+ ("wish","wish"),("see",("see","look")),("say","say"),("eat",("eat","eating")),
+ ("play","play"),("help","help"),("stop","stop"),("can","can"),("will","will"),
+ ("would","would"),("could","could"),("should","should"),("may","may"),
+ ("might","might"),("must","must"),("shall","shall"),("had","had"),
+ ("is/are","is"),("was/were",("was","is")),("not","not")]
+CONTR = ["'ll","'d","'ve","'re","'s","n't"]
+PRONOUNS = ["I","you","he","she","it","we","they"]
+def pronoun_pages():
+    pages={}
+    for p in PRONOUNS:
+        cells=[]
+        for label,spec in AUX:
+            base=label.split("/")[0]
+            if p=="I" and base in ("is",): label,spec="am",("is",)
+            if p in ("he","she","it") and base=="have": label,spec="has",("have","having")
+            phrase=f"{p} {label}"
+            cells.append(w(phrase, spec, GRN))
+        for c in CONTR:
+            cells.append(w(p+c, "nt" if c=="n't" else "say", GRY))
+        cells.append(w(f"{p} Buddy", "people", WHT))   # personalization slot (like 'they Liam')
+        pages[f"wfl-p-{p.lower()}"]=cells
+    return pages
+
+def keyboard_page():
+    rows="qwertyuiop asdfghjkl zxcvbnm".split(" ")
+    cells=[]
+    for r in rows:
+        for ch in r:
+            cells.append(w(ch, "letter", "rgb(255,249,196)"))
+    for d in "1234567890":
+        cells.append(w(d, "letter", WHT))
+    return {"wfl-abc": cells}
+
 def build_board(bid, name, rows_spec, cols=12, with_back=True):
     tiles, skipped = [], []
     if with_back:
@@ -108,6 +152,8 @@ def main():
     if sk: report["MAIN"] = sk
     boards[:] = [b for b in boards if b.get("id") != "root" and not b.get("id","").startswith("wfl-")]
     boards.insert(0, root)
+    PAGES.update(pronoun_pages())
+    PAGES.update(keyboard_page())
     for pid, cells in PAGES.items():
         b, sk = build_board(pid, pid.replace("wfl-","").title(), cells)
         if sk: report[pid] = sk
