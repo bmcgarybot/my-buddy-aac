@@ -3,239 +3,621 @@
  "advanced": [
   {
    "id": "root",
-   "name": "My Buddy Home",
-   "nameKey": "cboard.symbol.rootBoard",
-   "author": "My Buddy Team",
-   "email": "",
-   "description": "Core Vocabulary Home Board",
-   "caption": "",
+   "name": "My Buddy 84",
+   "author": "My Buddy",
    "hidden": false,
    "isPublic": false,
    "tiles": [
     {
+     "id": "root-342af064",
      "labelKey": "I",
      "image": "/symbols/mybuddy/i.svg",
-     "id": "61886e66-324",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
+     "id": "root-fd38e121",
      "labelKey": "you",
      "image": "/symbols/mybuddy/you.svg",
-     "id": "44e77c80-bf4",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
+     "id": "root-c0119bf2",
      "labelKey": "my",
      "image": "/symbols/mybuddy/my.svg",
-     "id": "62b855a0-173",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
+     "id": "root-c6fc6e97",
      "labelKey": "it",
      "image": "/symbols/mybuddy/it.svg",
-     "id": "277ae110-0c9",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "that",
-     "image": "/symbols/mybuddy/that.svg",
-     "id": "3f16b556-5da",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "root-919adb79",
+     "labelKey": "we",
+     "image": "/symbols/mybuddy/we.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "want",
-     "image": "/symbols/mybuddy/want.svg",
-     "id": "1b41f932-ba1",
-     "backgroundColor": "rgb(165, 214, 167)"
+     "id": "root-30e9f1f7",
+     "labelKey": "he",
+     "image": "/symbols/mybuddy/he.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "go",
-     "image": "/symbols/mybuddy/go.svg",
-     "id": "70e44800-3b2",
-     "backgroundColor": "rgb(165, 214, 167)"
+     "id": "root-0517da8d",
+     "labelKey": "she",
+     "image": "/symbols/mybuddy/she.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "help",
-     "image": "/symbols/mybuddy/help.svg",
-     "id": "c0ca34bf-218",
-     "backgroundColor": "rgb(165, 214, 167)"
+     "id": "root-fde08033",
+     "labelKey": "they",
+     "image": "/symbols/mybuddy/they.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "like",
-     "image": "/symbols/mybuddy/like.svg",
-     "id": "615adb25-46c",
-     "backgroundColor": "rgb(165, 214, 167)"
-    },
-    {
-     "labelKey": "stop",
-     "image": "/symbols/mybuddy/stop.svg",
-     "id": "7f72546f-d93",
-     "backgroundColor": "rgb(239, 154, 154)"
-    },
-    {
-     "labelKey": "more",
-     "image": "/symbols/mybuddy/more.svg",
-     "id": "872d57e7-ab8",
-     "backgroundColor": "rgb(255, 204, 128)"
-    },
-    {
-     "labelKey": "yes",
-     "image": "/symbols/mybuddy/yes.svg",
-     "id": "923f1761-b10",
-     "backgroundColor": "rgb(165, 214, 167)"
-    },
-    {
-     "labelKey": "no",
-     "image": "/symbols/mybuddy/no.svg",
-     "id": "956e38d3-de4",
-     "backgroundColor": "rgb(239, 154, 154)"
-    },
-    {
-     "labelKey": "here",
-     "image": "/symbols/mybuddy/here.svg",
-     "id": "71af7e76-e5e",
-     "backgroundColor": "rgb(144, 202, 249)"
-    },
-    {
+     "id": "root-b5db9629",
      "labelKey": "what",
      "image": "/symbols/mybuddy/what.svg",
-     "id": "7a27b7df-331",
-     "backgroundColor": "rgb(206, 147, 216)"
+     "backgroundColor": "rgb(206,147,216)"
     },
     {
-     "labelKey": "all done",
-     "image": "/symbols/mybuddy/all_done.svg",
-     "id": "ec64f054-256",
-     "backgroundColor": "rgb(239, 154, 154)"
-    },
-    {
-     "labelKey": "on",
-     "image": "/symbols/mybuddy/on.svg",
-     "id": "47628804-8f8",
-     "backgroundColor": "rgb(144, 202, 249)"
-    },
-    {
-     "labelKey": "in",
-     "image": "/symbols/mybuddy/in.svg",
-     "id": "6761c288-8dd",
-     "backgroundColor": "rgb(144, 202, 249)"
-    },
-    {
-     "labelKey": "off",
-     "image": "/symbols/mybuddy/off.svg",
-     "id": "a61843ce-a7f",
-     "backgroundColor": "rgb(144, 202, 249)"
-    },
-    {
-     "labelKey": "out",
-     "image": "/symbols/mybuddy/out.svg",
-     "id": "9f9fa168-e89",
-     "backgroundColor": "rgb(144, 202, 249)"
-    },
-    {
-     "labelKey": "some",
-     "image": "/symbols/mybuddy/some.svg",
-     "id": "d94a4fbe-423",
-     "backgroundColor": "rgb(255, 204, 128)"
-    },
-    {
-     "labelKey": "is",
-     "image": "/symbols/mybuddy/is.svg",
-     "id": "c4805ec1-293",
-     "backgroundColor": "rgb(165, 214, 167)"
-    },
-    {
+     "id": "root-9d1a5494",
      "labelKey": "who",
      "image": "/symbols/mybuddy/who.svg",
-     "id": "958086b9-e1c",
-     "backgroundColor": "rgb(206, 147, 216)"
+     "backgroundColor": "rgb(206,147,216)"
     },
     {
+     "id": "root-439ec2d9",
+     "labelKey": "where",
+     "image": "/symbols/mulberry/where_1.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "root-77b8400b",
+     "labelKey": "when",
+     "image": "/symbols/mybuddy/when.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "root-da479aef",
+     "labelKey": "want",
+     "image": "/symbols/mybuddy/want.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-a6e83cdf",
+     "labelKey": "like",
+     "image": "/symbols/mybuddy/like.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-c402f68c",
+     "labelKey": "go",
+     "image": "/symbols/mybuddy/go.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-61a231f8",
+     "labelKey": "get",
+     "image": "/symbols/mybuddy/get.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-2dd611ec",
+     "labelKey": "help",
+     "image": "/symbols/mybuddy/help.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-c7d9bb0e",
+     "labelKey": "make",
+     "image": "/symbols/mybuddy/make.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-559b53f3",
+     "labelKey": "drink",
+     "image": "/symbols/mybuddy/drink.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-ee3f068c",
+     "labelKey": "play",
+     "image": "/symbols/mybuddy/play.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-42a4ee06",
+     "labelKey": "stop",
+     "image": "/symbols/mybuddy/stop.svg",
+     "backgroundColor": "rgb(239,154,154)"
+    },
+    {
+     "id": "root-fe27f725",
+     "labelKey": "more",
+     "image": "/symbols/mybuddy/more.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-85325d4a",
+     "labelKey": "again",
+     "image": "/symbols/mybuddy/again.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-b0878f31",
+     "labelKey": "do",
+     "image": "/symbols/mybuddy/do.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-1baea07f",
+     "labelKey": "can",
+     "image": "/symbols/mybuddy/can.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-a11a8168",
+     "labelKey": "put",
+     "image": "/symbols/mybuddy/put.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-29b76213",
+     "labelKey": "give",
+     "image": "/symbols/mybuddy/give.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-3f9df4de",
+     "labelKey": "take",
+     "image": "/symbols/mybuddy/take.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-e0818333",
+     "labelKey": "look",
+     "image": "/symbols/mybuddy/look.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-2785f8d6",
+     "labelKey": "say",
+     "image": "/symbols/mybuddy/say.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-a7d1f2b6",
+     "labelKey": "feel",
+     "image": "/symbols/mybuddy/feel.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-aaf13b7e",
+     "labelKey": "know",
+     "image": "/symbols/mybuddy/know.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-d457bbb9",
+     "labelKey": "open",
+     "image": "/symbols/mybuddy/open.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-48aff338",
+     "labelKey": "turn",
+     "image": "/symbols/mybuddy/turn.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-5bc26e45",
+     "labelKey": "come",
+     "image": "/symbols/mybuddy/come.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-ea2e42f8",
+     "labelKey": "is",
+     "image": "/symbols/mybuddy/is.svg",
+     "backgroundColor": "rgb(224,224,224)"
+    },
+    {
+     "id": "root-5fd10551",
+     "labelKey": "not",
+     "image": "/symbols/mybuddy/not.svg",
+     "backgroundColor": "rgb(239,154,154)"
+    },
+    {
+     "id": "root-c8f14ba5",
+     "labelKey": "this",
+     "image": "/symbols/mybuddy/this.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "root-a1dbce4a",
+     "labelKey": "that",
+     "image": "/symbols/mybuddy/that.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "root-52c6d6aa",
+     "labelKey": "big",
+     "image": "/symbols/mybuddy/big.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-ff60b937",
+     "labelKey": "little",
+     "image": "/symbols/mybuddy/little.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-b2fa4a31",
+     "labelKey": "good",
+     "image": "/symbols/mybuddy/good.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-acc03bee",
+     "labelKey": "bad",
+     "image": "/symbols/mybuddy/bad.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-4fdb4156",
+     "labelKey": "hot",
+     "image": "/symbols/mybuddy/hot.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-922bc6a1",
+     "labelKey": "cold",
+     "image": "/symbols/mybuddy/cold.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-85285705",
+     "labelKey": "fast",
+     "image": "/symbols/mybuddy/fast.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-b86c93f6",
+     "labelKey": "slow",
+     "image": "/symbols/mybuddy/slow.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-fe07456d",
+     "labelKey": "on",
+     "image": "/symbols/mybuddy/on.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "root-a33056f1",
+     "labelKey": "in",
+     "image": "/symbols/mybuddy/in.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "root-31e1f88a",
+     "labelKey": "off",
+     "image": "/symbols/mybuddy/off.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "root-7544ef4f",
+     "labelKey": "out",
+     "image": "/symbols/mybuddy/out.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "root-04a8f0dc",
+     "labelKey": "up",
+     "image": "/symbols/mybuddy/up.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "root-3c41eb4c",
+     "labelKey": "down",
+     "image": "/symbols/mybuddy/down.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "root-5f9381c2",
+     "labelKey": "here",
+     "image": "/symbols/mybuddy/here.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "root-a46e6f86",
+     "labelKey": "some",
+     "image": "/symbols/mybuddy/some.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-c0514999",
+     "labelKey": "all",
+     "image": "/symbols/mybuddy/all.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-4cd4bbeb",
+     "labelKey": "now",
+     "image": "/symbols/mybuddy/now.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-cd2c89ed",
+     "labelKey": "later",
+     "image": "/symbols/mybuddy/later.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-222a5d74",
+     "labelKey": "why",
+     "image": "/symbols/mybuddy/why.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "root-72a5bac0",
+     "labelKey": "yes",
+     "image": "/symbols/mybuddy/yes.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-a901dde3",
+     "labelKey": "no",
+     "image": "/symbols/mybuddy/no.svg",
+     "backgroundColor": "rgb(239,154,154)"
+    },
+    {
+     "id": "root-00944a2c",
+     "labelKey": "please",
+     "image": "/symbols/mybuddy/please.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "root-3827ff29",
+     "labelKey": "thank you",
+     "image": "/symbols/mybuddy/thank_you.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "root-364edb83",
+     "labelKey": "hi",
+     "image": "/symbols/mybuddy/hi.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "root-3f70b59c",
+     "labelKey": "bye",
+     "image": "/symbols/mybuddy/bye.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "root-02ac1fe3",
+     "labelKey": "love",
+     "image": "/symbols/mybuddy/love.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "root-ad96ef33",
+     "labelKey": "same",
+     "image": "/symbols/mybuddy/same.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-6b0ec3a1",
+     "labelKey": "different",
+     "image": "/symbols/mybuddy/different.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "root-981d296c",
+     "labelKey": "how",
+     "image": "/symbols/mybuddy/how.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "root-36e39d43",
+     "labelKey": "all done",
+     "image": "/symbols/mybuddy/all_done.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-ad331667",
+     "labelKey": "sleep",
+     "image": "/symbols/mybuddy/sleep.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-30c86bcb",
      "labelKey": "Food",
-     "image": "/symbols/mybuddy/food.svg",
-     "loadBoard": "r1-FTvnvaW",
-     "id": "2d1602ea-8ff",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "image": "/symbols/mulberry/food.svg",
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-food"
     },
     {
+     "id": "root-f375c146",
      "labelKey": "Feelings",
-     "image": "/symbols/mybuddy/feelings.svg",
-     "loadBoard": "HkYF6DnP6-",
-     "id": "f0241b85-bd6",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "image": "/symbols/mybuddy/happy.svg",
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-feelings"
     },
     {
+     "id": "root-e781756e",
      "labelKey": "People",
      "image": "/symbols/mybuddy/people.svg",
-     "loadBoard": "SkUlYTw3wT-",
-     "id": "7e88fb06-939",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-people"
     },
     {
+     "id": "root-3f68909f",
      "labelKey": "Places",
      "image": "/symbols/mybuddy/places.svg",
-     "loadBoard": "S1uxKpvhPpb",
-     "id": "3f800d46-bd6",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-places"
     },
     {
+     "id": "root-75601cd6",
      "labelKey": "Things",
      "image": "/symbols/mybuddy/things.svg",
-     "loadBoard": "BJ2lK6v3DaZ",
-     "id": "57839f62-b86",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-things"
     },
     {
+     "id": "root-07bcd3ee",
      "labelKey": "Animals",
      "image": "/symbols/mybuddy/animals.svg",
-     "loadBoard": "ry1eFpwhDp-",
-     "id": "334776c1-62a",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-animals"
+    },
+    {
+     "id": "root-54bf10ae",
+     "labelKey": "Body",
+     "image": "/symbols/mybuddy/body.svg",
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-body"
+    },
+    {
+     "id": "root-2ab68967",
+     "labelKey": "Clothes",
+     "image": "/symbols/mybuddy/clothes.svg",
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-clothes"
+    },
+    {
+     "id": "root-ca8f7058",
+     "labelKey": "School",
+     "image": "/symbols/mybuddy/school.svg",
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-school"
+    },
+    {
+     "id": "root-b22fdd52",
+     "labelKey": "Colors",
+     "image": "/symbols/mybuddy/colors.svg",
+     "backgroundColor": "rgb(255,183,77)",
+     "loadBoard": "wfl-colors"
+    },
+    {
+     "id": "root-618f5c45",
+     "labelKey": "read",
+     "image": "/symbols/mybuddy/read.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "root-5e29f4aa",
+     "labelKey": "wash",
+     "image": "/symbols/mybuddy/wash.svg",
+     "backgroundColor": "rgb(165,214,167)"
     }
    ],
    "isFixed": true,
    "grid": {
-    "rows": 5,
-    "columns": 6,
+    "rows": 7,
+    "columns": 12,
     "order": [
      [
-      "61886e66-324",
-      "44e77c80-bf4",
-      "62b855a0-173",
-      "277ae110-0c9",
-      "3f16b556-5da",
-      "7a27b7df-331"
+      "root-342af064",
+      "root-fd38e121",
+      "root-c0119bf2",
+      "root-c6fc6e97",
+      "root-919adb79",
+      "root-30e9f1f7",
+      "root-0517da8d",
+      "root-fde08033",
+      "root-b5db9629",
+      "root-9d1a5494",
+      "root-439ec2d9",
+      "root-77b8400b"
      ],
      [
-      "1b41f932-ba1",
-      "70e44800-3b2",
-      "c0ca34bf-218",
-      "615adb25-46c",
-      "872d57e7-ab8",
-      "958086b9-e1c"
+      "root-da479aef",
+      "root-a6e83cdf",
+      "root-c402f68c",
+      "root-61a231f8",
+      "root-2dd611ec",
+      "root-c7d9bb0e",
+      "root-559b53f3",
+      "root-ee3f068c",
+      "root-42a4ee06",
+      "root-fe27f725",
+      "root-85325d4a",
+      "root-b0878f31"
      ],
      [
-      "c4805ec1-293",
-      "47628804-8f8",
-      "6761c288-8dd",
-      "a61843ce-a7f",
-      "9f9fa168-e89",
-      "d94a4fbe-423"
+      "root-1baea07f",
+      "root-a11a8168",
+      "root-29b76213",
+      "root-3f9df4de",
+      "root-e0818333",
+      "root-2785f8d6",
+      "root-a7d1f2b6",
+      "root-aaf13b7e",
+      "root-d457bbb9",
+      "root-48aff338",
+      "root-5bc26e45",
+      "root-ea2e42f8"
      ],
      [
-      "923f1761-b10",
-      "956e38d3-de4",
-      "7f72546f-d93",
-      "71af7e76-e5e",
-      "ec64f054-256",
-      "f0241b85-bd6"
+      "root-5fd10551",
+      "root-c8f14ba5",
+      "root-a1dbce4a",
+      "root-52c6d6aa",
+      "root-ff60b937",
+      "root-b2fa4a31",
+      "root-acc03bee",
+      "root-4fdb4156",
+      "root-922bc6a1",
+      "root-85285705",
+      "root-b86c93f6",
+      "root-fe07456d"
      ],
      [
-      "2d1602ea-8ff",
-      "7e88fb06-939",
-      "3f800d46-bd6",
-      "57839f62-b86",
-      "334776c1-62a",
+      "root-a33056f1",
+      "root-31e1f88a",
+      "root-7544ef4f",
+      "root-04a8f0dc",
+      "root-3c41eb4c",
+      "root-5f9381c2",
+      "root-a46e6f86",
+      "root-c0514999",
+      "root-4cd4bbeb",
+      "root-cd2c89ed",
+      "root-222a5d74",
+      "root-72a5bac0"
+     ],
+     [
+      "root-a901dde3",
+      "root-00944a2c",
+      "root-3827ff29",
+      "root-364edb83",
+      "root-3f70b59c",
+      "root-02ac1fe3",
+      "root-ad96ef33",
+      "root-6b0ec3a1",
+      "root-981d296c",
+      "root-36e39d43",
+      "root-ad331667",
+      "root-30c86bcb"
+     ],
+     [
+      "root-f375c146",
+      "root-e781756e",
+      "root-3f68909f",
+      "root-75601cd6",
+      "root-07bcd3ee",
+      "root-54bf10ae",
+      "root-2ab68967",
+      "root-ca8f7058",
+      "root-b22fdd52",
+      "root-618f5c45",
+      "root-5e29f4aa",
       null
      ]
     ]
@@ -5306,6 +5688,912 @@
     }
    ],
    "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763764_9b1b336c1684_birds.png"
+  },
+  {
+   "id": "wfl-food",
+   "name": "Food",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-food-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-food-e00b7071",
+     "labelKey": "cookie",
+     "image": "/symbols/mybuddy/cookie.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-food-1d492ed8",
+     "labelKey": "ice cream",
+     "image": "/symbols/mulberry/ice_cream_2.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-food-7f0d2cd2",
+     "labelKey": "juice",
+     "image": "/symbols/mulberry/orange_juice.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-food-back",
+      "wfl-food-e00b7071",
+      "wfl-food-1d492ed8",
+      "wfl-food-7f0d2cd2",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-feelings",
+   "name": "Feelings",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-feelings-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-feelings-52e47673",
+     "labelKey": "happy",
+     "image": "/symbols/mybuddy/happy.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "wfl-feelings-9924c2da",
+     "labelKey": "sad",
+     "image": "/symbols/mybuddy/sad.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "wfl-feelings-09b67abd",
+     "labelKey": "angry",
+     "image": "/symbols/mybuddy/angry.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "wfl-feelings-66457c9d",
+     "labelKey": "tired",
+     "image": "/symbols/mybuddy/tired.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "wfl-feelings-67f5c3b6",
+     "labelKey": "scared",
+     "image": "/symbols/mybuddy/scared.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "wfl-feelings-6358a9a6",
+     "labelKey": "sick",
+     "image": "/symbols/mybuddy/sick.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "wfl-feelings-3c7d0e6c",
+     "labelKey": "hungry",
+     "image": "/symbols/mybuddy/hungry.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    },
+    {
+     "id": "wfl-feelings-a0bc698c",
+     "labelKey": "hurt",
+     "image": "/symbols/mybuddy/hurt.svg",
+     "backgroundColor": "rgb(165,214,167)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-feelings-back",
+      "wfl-feelings-52e47673",
+      "wfl-feelings-9924c2da",
+      "wfl-feelings-09b67abd",
+      "wfl-feelings-66457c9d",
+      "wfl-feelings-67f5c3b6",
+      "wfl-feelings-6358a9a6",
+      "wfl-feelings-3c7d0e6c",
+      "wfl-feelings-a0bc698c",
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-people",
+   "name": "People",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-people-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-people-f6156632",
+     "labelKey": "mom",
+     "image": "/symbols/mulberry/mum.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-6b8bc141",
+     "labelKey": "dad",
+     "image": "/symbols/mulberry/dad.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-0259c860",
+     "labelKey": "teacher",
+     "image": "/symbols/mulberry/teacher_2b.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-b4ef9591",
+     "labelKey": "brother",
+     "image": "/symbols/mulberry/brother.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-a3072c3a",
+     "labelKey": "sister",
+     "image": "/symbols/mulberry/sister.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-583472b4",
+     "labelKey": "baby",
+     "image": "/symbols/mulberry/baby.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-7706177d",
+     "labelKey": "doctor",
+     "image": "/symbols/mulberry/doctor_2b.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-00889d84",
+     "labelKey": "boy",
+     "image": "/symbols/mybuddy/boy.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-people-240068b2",
+     "labelKey": "girl",
+     "image": "/symbols/mybuddy/girl.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-people-back",
+      "wfl-people-f6156632",
+      "wfl-people-6b8bc141",
+      "wfl-people-0259c860",
+      "wfl-people-b4ef9591",
+      "wfl-people-a3072c3a",
+      "wfl-people-583472b4",
+      "wfl-people-7706177d",
+      "wfl-people-00889d84",
+      "wfl-people-240068b2",
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-places",
+   "name": "Places",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-places-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-places-c6d57d24",
+     "labelKey": "home",
+     "image": "/symbols/mulberry/house.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-efcd802a",
+     "labelKey": "school",
+     "image": "/symbols/mybuddy/school.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-126b48f3",
+     "labelKey": "park",
+     "image": "/symbols/mybuddy/park.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-e7623fc3",
+     "labelKey": "shop",
+     "image": "/symbols/mulberry/shop_2.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-8d580efe",
+     "labelKey": "outside",
+     "image": "/symbols/mulberry/outside.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-ea6aaf32",
+     "labelKey": "bathroom",
+     "image": "/symbols/mulberry/toilet.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-6e2e8e6d",
+     "labelKey": "bedroom",
+     "image": "/symbols/mybuddy/bedroom.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-66791518",
+     "labelKey": "kitchen",
+     "image": "/symbols/mybuddy/kitchen.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-e6caf020",
+     "labelKey": "car",
+     "image": "/symbols/mulberry/car_2.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-7b549084",
+     "labelKey": "bus",
+     "image": "/symbols/mulberry/bus.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "wfl-places-3ce4ac97",
+     "labelKey": "beach",
+     "image": "/symbols/mulberry/beach.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-places-back",
+      "wfl-places-c6d57d24",
+      "wfl-places-efcd802a",
+      "wfl-places-126b48f3",
+      "wfl-places-e7623fc3",
+      "wfl-places-8d580efe",
+      "wfl-places-ea6aaf32",
+      "wfl-places-6e2e8e6d",
+      "wfl-places-66791518",
+      "wfl-places-e6caf020",
+      "wfl-places-7b549084",
+      "wfl-places-3ce4ac97"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-things",
+   "name": "Things",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-things-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-things-fb35f7be",
+     "labelKey": "ball",
+     "image": "/symbols/mulberry/ball.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-232ce43d",
+     "labelKey": "book",
+     "image": "/symbols/mybuddy/book_g.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-c6a59e42",
+     "labelKey": "toy",
+     "image": "/symbols/mulberry/toy_box.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-46afcaf2",
+     "labelKey": "tablet",
+     "image": "/symbols/mulberry/computer_2.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-2b4c05ff",
+     "labelKey": "tv",
+     "image": "/symbols/mybuddy/tv.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-fd932745",
+     "labelKey": "blanket",
+     "image": "/symbols/mulberry/blanket.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-a37f7bba",
+     "labelKey": "shoes",
+     "image": "/symbols/mybuddy/shoes.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-79624ffc",
+     "labelKey": "cup",
+     "image": "/symbols/mybuddy/cup.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-fa41348e",
+     "labelKey": "bubbles",
+     "image": "/symbols/mulberry/bubbles.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-5820f965",
+     "labelKey": "music",
+     "image": "/symbols/mulberry/music.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-things-53088dcb",
+     "labelKey": "swing",
+     "image": "/symbols/mulberry/swing.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-things-back",
+      "wfl-things-fb35f7be",
+      "wfl-things-232ce43d",
+      "wfl-things-c6a59e42",
+      "wfl-things-46afcaf2",
+      "wfl-things-2b4c05ff",
+      "wfl-things-fd932745",
+      "wfl-things-a37f7bba",
+      "wfl-things-79624ffc",
+      "wfl-things-fa41348e",
+      "wfl-things-5820f965",
+      "wfl-things-53088dcb"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-animals",
+   "name": "Animals",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-animals-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-animals-b61d28b0",
+     "labelKey": "dog",
+     "image": "/symbols/mulberry/dog.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-cb9c6cc6",
+     "labelKey": "cat",
+     "image": "/symbols/mulberry/cat.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-773de98d",
+     "labelKey": "bird",
+     "image": "/symbols/mulberry/bird.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-706350a0",
+     "labelKey": "fish",
+     "image": "/symbols/mulberry/fish.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-a09edb58",
+     "labelKey": "horse",
+     "image": "/symbols/mulberry/horse.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-b57b9893",
+     "labelKey": "cow",
+     "image": "/symbols/mulberry/cow.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-0b9127c1",
+     "labelKey": "rabbit",
+     "image": "/symbols/mulberry/rabbit.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-493fde32",
+     "labelKey": "duck",
+     "image": "/symbols/mulberry/duck.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-7c5c0a2b",
+     "labelKey": "frog",
+     "image": "/symbols/mulberry/frog.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-2cecbf9b",
+     "labelKey": "lion",
+     "image": "/symbols/mulberry/lion.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-be027b32",
+     "labelKey": "elephant",
+     "image": "/symbols/mulberry/elephant.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    },
+    {
+     "id": "wfl-animals-06421af9",
+     "labelKey": "pig",
+     "image": "/symbols/mybuddy/pig.svg",
+     "backgroundColor": "rgb(244,143,177)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 2,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-animals-back",
+      "wfl-animals-b61d28b0",
+      "wfl-animals-cb9c6cc6",
+      "wfl-animals-773de98d",
+      "wfl-animals-706350a0",
+      "wfl-animals-a09edb58",
+      "wfl-animals-b57b9893",
+      "wfl-animals-0b9127c1",
+      "wfl-animals-493fde32",
+      "wfl-animals-7c5c0a2b",
+      "wfl-animals-2cecbf9b",
+      "wfl-animals-be027b32"
+     ],
+     [
+      "wfl-animals-06421af9",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-body",
+   "name": "Body",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-body-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-body-49fccd6e",
+     "labelKey": "head",
+     "image": "/symbols/mulberry/head.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-body-896fb049",
+     "labelKey": "foot",
+     "image": "/symbols/mulberry/foot.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-body-6a10749f",
+     "labelKey": "arm",
+     "image": "/symbols/mulberry/arm.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-body-6c7e16c8",
+     "labelKey": "leg",
+     "image": "/symbols/mulberry/leg.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-body-163b5f6d",
+     "labelKey": "eyes",
+     "image": "/symbols/mulberry/eyes.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-body-804cfc3d",
+     "labelKey": "ear",
+     "image": "/symbols/mulberry/ear.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-body-97bb7565",
+     "labelKey": "mouth",
+     "image": "/symbols/mulberry/mouth.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    },
+    {
+     "id": "wfl-body-b94ff3e4",
+     "labelKey": "teeth",
+     "image": "/symbols/mulberry/teeth_2.svg",
+     "backgroundColor": "rgb(255,241,118)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-body-back",
+      "wfl-body-49fccd6e",
+      "wfl-body-896fb049",
+      "wfl-body-6a10749f",
+      "wfl-body-6c7e16c8",
+      "wfl-body-163b5f6d",
+      "wfl-body-804cfc3d",
+      "wfl-body-97bb7565",
+      "wfl-body-b94ff3e4",
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-clothes",
+   "name": "Clothes",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-clothes-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-clothes-7f572d91",
+     "labelKey": "pants",
+     "image": "/symbols/mulberry/trousers.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-clothes-5b8994f2",
+     "labelKey": "socks",
+     "image": "/symbols/mulberry/socks.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-clothes-bfa103aa",
+     "labelKey": "coat",
+     "image": "/symbols/mulberry/coat.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-clothes-0089a706",
+     "labelKey": "dress",
+     "image": "/symbols/mulberry/dress.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-clothes-a8e0a9f0",
+     "labelKey": "pajamas",
+     "image": "/symbols/mulberry/pyjamas.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-clothes-f3cae6a6",
+     "labelKey": "jumper",
+     "image": "/symbols/mulberry/jumper.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    },
+    {
+     "id": "wfl-clothes-7976a694",
+     "labelKey": "shoes",
+     "image": "/symbols/mybuddy/shoes.svg",
+     "backgroundColor": "rgb(144,202,249)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-clothes-back",
+      "wfl-clothes-7f572d91",
+      "wfl-clothes-5b8994f2",
+      "wfl-clothes-bfa103aa",
+      "wfl-clothes-0089a706",
+      "wfl-clothes-a8e0a9f0",
+      "wfl-clothes-f3cae6a6",
+      "wfl-clothes-7976a694",
+      null,
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-school",
+   "name": "School",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-school-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-school-012c2936",
+     "labelKey": "pencil",
+     "image": "/symbols/mulberry/pencil.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "wfl-school-b820690c",
+     "labelKey": "paper",
+     "image": "/symbols/mulberry/paper.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "wfl-school-fe306a93",
+     "labelKey": "scissors",
+     "image": "/symbols/mulberry/scissors.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "wfl-school-d890ea7c",
+     "labelKey": "glue",
+     "image": "/symbols/mulberry/glue.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "wfl-school-07a2cec3",
+     "labelKey": "desk",
+     "image": "/symbols/mulberry/desk.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "wfl-school-6952b285",
+     "labelKey": "teacher",
+     "image": "/symbols/mulberry/teacher_2b.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "wfl-school-8bf73619",
+     "labelKey": "computer",
+     "image": "/symbols/mulberry/computer_2.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    },
+    {
+     "id": "wfl-school-4ce9937a",
+     "labelKey": "lunch",
+     "image": "/symbols/mulberry/lunch_box.svg",
+     "backgroundColor": "rgb(206,147,216)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-school-back",
+      "wfl-school-012c2936",
+      "wfl-school-b820690c",
+      "wfl-school-fe306a93",
+      "wfl-school-d890ea7c",
+      "wfl-school-07a2cec3",
+      "wfl-school-6952b285",
+      "wfl-school-8bf73619",
+      "wfl-school-4ce9937a",
+      null,
+      null,
+      null
+     ]
+    ]
+   }
+  },
+  {
+   "id": "wfl-colors",
+   "name": "Colors",
+   "author": "My Buddy",
+   "hidden": false,
+   "isPublic": false,
+   "tiles": [
+    {
+     "id": "wfl-colors-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "wfl-colors-afff55f5",
+     "labelKey": "red",
+     "image": "/symbols/mybuddy/color_red.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-2f244584",
+     "labelKey": "blue",
+     "image": "/symbols/mybuddy/color_blue.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-c93e1211",
+     "labelKey": "green",
+     "image": "/symbols/mybuddy/color_green.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-4d5fa8bb",
+     "labelKey": "yellow",
+     "image": "/symbols/mybuddy/color_yellow.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-3892af04",
+     "labelKey": "orange",
+     "image": "/symbols/mybuddy/color_orange.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-2f148141",
+     "labelKey": "purple",
+     "image": "/symbols/mybuddy/color_purple.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-5e2f51d1",
+     "labelKey": "pink",
+     "image": "/symbols/mybuddy/color_pink.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-6bb07eab",
+     "labelKey": "brown",
+     "image": "/symbols/mybuddy/color_brown.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-fe51e62e",
+     "labelKey": "black",
+     "image": "/symbols/mybuddy/color_black.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    },
+    {
+     "id": "wfl-colors-034dbbff",
+     "labelKey": "white",
+     "image": "/symbols/mybuddy/color_white.svg",
+     "backgroundColor": "rgb(250,250,250)"
+    }
+   ],
+   "isFixed": true,
+   "grid": {
+    "rows": 1,
+    "columns": 12,
+    "order": [
+     [
+      "wfl-colors-back",
+      "wfl-colors-afff55f5",
+      "wfl-colors-2f244584",
+      "wfl-colors-c93e1211",
+      "wfl-colors-4d5fa8bb",
+      "wfl-colors-3892af04",
+      "wfl-colors-2f148141",
+      "wfl-colors-5e2f51d1",
+      "wfl-colors-6bb07eab",
+      "wfl-colors-fe51e62e",
+      "wfl-colors-034dbbff",
+      null
+     ]
+    ]
+   }
   }
  ]
 }
