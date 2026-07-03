@@ -316,207 +316,141 @@
    "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763465_9b1b336c1684_food.png",
    "tiles": [
     {
-     "labelKey": "cboard.symbol.imHungry",
-     "image": "/symbols/mulberry/hungry.svg",
-     "id": "HkqHz0cTX5tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-r1-F-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
     },
     {
-     "labelKey": "cboard.symbol.iWant",
-     "image": "/symbols/mulberry/want_,_to.svg",
-     "id": "r1oHfCqTm9Yb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-cec175b8",
+     "labelKey": "apple",
+     "image": "/symbols/mulberry/apple.svg",
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "cboard.symbol.and",
-     "image": "/symbols/arasaac/ampersand.png",
-     "id": "Bk3Sf0qpm5Fb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-a02e83ae",
+     "labelKey": "banana",
+     "image": "/symbols/mulberry/banana.svg",
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "cboard.symbol.iDislike",
-     "image": "/symbols/mulberry/bad.svg",
-     "id": "B1TBz09TXcKZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodMealsAndSnacks.soup",
-     "image": "/symbols/mulberry/soup.svg",
-     "loadBoard": "SkEF6D2DaW",
-     "id": "rkCHGA9TQ5F-",
-     "backgroundColor": "rgb(187, 222, 251)"
-    },
-    {
-     "labelKey": "symbol.foodVegetablesAndSalads.vegetables",
-     "image": "/symbols/mulberry/vegetables.svg",
-     "loadBoard": "r1ftpPhPa-",
-     "id": "Sk1IGA9679YW",
-     "backgroundColor": "rgb(187, 222, 251)"
-    },
-    {
-     "labelKey": "symbol.foodFruit.fruit",
-     "image": "/symbols/mulberry/fruit.svg",
-     "loadBoard": "S1It6P2Pp-",
-     "id": "rJeLMR9TX5FZ",
-     "backgroundColor": "rgb(187, 222, 251)"
-    },
-    {
-     "labelKey": "symbol.foodMealsAndSnacks.pizza",
-     "image": "/symbols/mulberry/pizza_2.svg",
-     "id": "SyWIGAcam5tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodBreadsAndBaking.bread",
+     "id": "mb-c093baf2",
+     "labelKey": "bread",
      "image": "/symbols/mulberry/bread.svg",
-     "id": "HyfLGCc6XqKZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "symbol.foodEggs.boiledEgg",
-     "image": "/symbols/mulberry/boiled_egg.svg",
-     "id": "BkmIzC5aX9tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-f3b07ed2",
+     "labelKey": "milk",
+     "image": "/symbols/mulberry/milk.svg",
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "symbol.foodEggs.friedEgg",
-     "image": "/symbols/mulberry/fried_egg.svg",
-     "id": "ryN8fR56mqFb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-effa616c",
+     "labelKey": "water",
+     "image": "/symbols/mulberry/water.svg",
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "symbol.foodBreadsAndBaking.croissant",
-     "image": "/symbols/mulberry/croissant.svg",
-     "id": "BkHLzR9pXctb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-08ba29ad",
+     "labelKey": "juice",
+     "image": "/symbols/mulberry/orange_juice.svg",
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "symbol.foodBreadsAndBaking.cereal",
-     "image": "/symbols/mulberry/cereal.svg",
-     "id": "SyU8G0qT7qY-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodBreadsAndBaking.porridge",
-     "image": "/symbols/mulberry/porridge.svg",
-     "id": "ryDIfC5a79tb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodBreadsAndBaking.pancakes",
-     "image": "/symbols/mulberry/pancakes.svg",
-     "id": "BJdUzC56Qqtb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodPastasAndRice.pasta",
-     "image": "/symbols/mulberry/pasta.svg",
-     "id": "ryY8zA9a79YW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodPoultry.poultry",
-     "image": "/symbols/mulberry/poultry.svg",
-     "id": "H1qIMA96Q5Y-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodMeat.beef",
-     "image": "/symbols/mulberry/beef.svg",
-     "id": "S1sIzRqp75Y-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalFishAndMarineMammals.fish",
-     "image": "/symbols/mulberry/fish.svg",
-     "id": "r1n8MCcpXcFW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodMealsAndSnacks.spaghettiBolognaise",
-     "image": "/symbols/mulberry/spaghetti_bolognaise.svg",
-     "id": "HkTIzCcpmqK-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodMealsAndSnacks.hamburger",
-     "image": "/symbols/mulberry/hamburger.svg",
-     "id": "B1A8GRc6m5FZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodMealsAndSnacks.hotDog",
-     "image": "/symbols/mulberry/hot_dog.svg",
-     "id": "BJ1PGCcaXqF-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodBreadsAndBaking.pie",
-     "image": "/symbols/mulberry/pie.svg",
-     "id": "BklvGR5a7qF-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodKitchenItems.pepperMill",
-     "image": "/symbols/mulberry/pepper_mill.svg",
-     "id": "B1bPGRcaX9FW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodKitchenItems.salt",
-     "image": "/symbols/mulberry/salt.svg",
-     "id": "H1fPMCc6XcYb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodIngredients.tomatoSauce",
-     "image": "/symbols/mulberry/tomato_sauce.svg",
-     "id": "SJXwGRqp75tb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodIngredients.vinegar",
-     "image": "/symbols/mulberry/vinegar.svg",
-     "id": "BJ4PzAcpX5tb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodMealsAndSnacks.sandwich",
-     "image": "/symbols/mulberry/sandwich.svg",
-     "id": "BySPfCcam9K-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodBreadsAndBaking.bagel",
-     "image": "/symbols/mulberry/bagel_2.svg",
-     "id": "SkIDMC5am9KZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodKitchenItems.toast",
-     "image": "/symbols/mulberry/toast.svg",
-     "id": "rkwPfC9pmcFb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodDairy.cheese",
+     "id": "mb-b7285bee",
+     "labelKey": "cheese",
      "image": "/symbols/mulberry/cheese.svg",
-     "id": "ryOvG05p75tW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "symbol.foodPastasAndRice.noodles",
-     "image": "/symbols/mulberry/noodles.svg",
-     "id": "SkFvM0qT7cFb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-531a23bb",
+     "labelKey": "pizza",
+     "image": "/symbols/mulberry/pizza_2.svg",
+     "backgroundColor": "rgb(255,183,77)"
     },
     {
-     "labelKey": "symbol.foodVegetablesAndSalads.chips",
-     "image": "/symbols/mulberry/chips.svg",
-     "id": "rycvMAcpmqYW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-3505f85d",
+     "labelKey": "chicken",
+     "image": "/symbols/mulberry/chicken.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "mb-40e88db1",
+     "labelKey": "pasta",
+     "image": "/symbols/mulberry/pasta.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "mb-3ec68b4e",
+     "labelKey": "cereal",
+     "image": "/symbols/mulberry/cereal.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "mb-7dd582d2",
+     "labelKey": "yogurt",
+     "image": "/symbols/mulberry/yogurt.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "mb-782afc5b",
+     "labelKey": "crackers",
+     "image": "/symbols/mulberry/cracker.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "mb-34ff960a",
+     "labelKey": "ice cream",
+     "image": "/symbols/mulberry/ice_cream_2.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "mb-c347ce3a",
+     "labelKey": "eat",
+     "image": "/symbols/mulberry/eat_2_,_to.svg",
+     "backgroundColor": "rgb(255,183,77)"
+    },
+    {
+     "id": "mb-d6c23e50",
+     "labelKey": "drink",
+     "image": "/symbols/mulberry/drink_3_,_to.svg",
+     "backgroundColor": "rgb(255,183,77)"
     }
-   ]
+   ],
+   "name": "Food",
+   "isFixed": true,
+   "grid": {
+    "rows": 3,
+    "columns": 6,
+    "order": [
+     [
+      "mb-r1-F-back",
+      "mb-cec175b8",
+      "mb-a02e83ae",
+      "mb-c093baf2",
+      "mb-f3b07ed2",
+      "mb-effa616c"
+     ],
+     [
+      "mb-08ba29ad",
+      "mb-b7285bee",
+      "mb-531a23bb",
+      "mb-3505f85d",
+      "mb-40e88db1",
+      "mb-3ec68b4e"
+     ],
+     [
+      "mb-7dd582d2",
+      "mb-782afc5b",
+      "mb-34ff960a",
+      "mb-c347ce3a",
+      "mb-d6c23e50",
+      null
+     ]
+    ]
+   }
   },
   {
    "id": "r1ftpPhPa-",
@@ -1092,73 +1026,86 @@
    "hidden": true,
    "tiles": [
     {
-     "labelKey": "cboard.symbol.iAm",
-     "image": "/symbols/arasaac/i_am.png",
-     "id": "HJ6afRqp7cFb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-HkYF-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
     },
     {
-     "labelKey": "cboard.symbol.youAre",
-     "image": "/symbols/arasaac/you_are.png",
-     "id": "rk0TGA9TmqFW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-9f04e8be",
+     "labelKey": "happy",
+     "image": "/symbols/mybuddy/happy.svg",
+     "backgroundColor": "rgb(129,199,132)"
     },
     {
-     "labelKey": "cboard.symbol.areYou",
-     "image": "/symbols/arasaac/are_you.png",
-     "id": "ryyAGC5a75tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-39df1439",
+     "labelKey": "sad",
+     "image": "/symbols/mybuddy/sad.svg",
+     "backgroundColor": "rgb(129,199,132)"
     },
     {
-     "labelKey": "cboard.symbol.happy",
-     "image": "/symbols/mulberry/happy_man.svg",
-     "id": "SkeRzC96X9Y-",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-cb4c2715",
+     "labelKey": "angry",
+     "image": "/symbols/mybuddy/angry.svg",
+     "backgroundColor": "rgb(129,199,132)"
     },
     {
-     "labelKey": "cboard.symbol.sad",
-     "image": "/symbols/mulberry/sad_man.svg",
-     "id": "HJbRf0qpmqF-",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-19ca4d41",
+     "labelKey": "tired",
+     "image": "/symbols/mybuddy/tired.svg",
+     "backgroundColor": "rgb(129,199,132)"
     },
     {
-     "labelKey": "cboard.symbol.angry",
-     "image": "/symbols/mulberry/angry_man.svg",
-     "id": "B1M0GR9679tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-5a85772c",
+     "labelKey": "scared",
+     "image": "/symbols/mybuddy/scared.svg",
+     "backgroundColor": "rgb(129,199,132)"
     },
     {
-     "labelKey": "cboard.symbol.afraid",
-     "image": "/symbols/mulberry/afraid_man.svg",
-     "id": "BymCzRcam5F-",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-99347fa0",
+     "labelKey": "sick",
+     "image": "/symbols/mybuddy/sick.svg",
+     "backgroundColor": "rgb(129,199,132)"
     },
     {
-     "labelKey": "cboard.symbol.confused",
-     "image": "/symbols/mulberry/confused_man.svg",
-     "id": "HkNRMC9aQ5YW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-8f3bc488",
+     "labelKey": "hungry",
+     "image": "/symbols/mybuddy/hungry.svg",
+     "backgroundColor": "rgb(129,199,132)"
     },
     {
-     "labelKey": "cboard.symbol.hot",
-     "image": "/symbols/mulberry/hot_person.svg",
-     "id": "SyS0fA96XqtW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "cboard.symbol.excited",
-     "image": "/symbols/mulberry/excited_man.svg",
-     "id": "SJICM05TXqtb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "cboard.symbol.relaxed",
-     "image": "/symbols/mulberry/relax_3_,_to.svg",
-     "id": "ByvCMCqaQctW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-bc50500d",
+     "labelKey": "hurt",
+     "image": "/symbols/mybuddy/hurt.svg",
+     "backgroundColor": "rgb(129,199,132)"
     }
    ],
-   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763531_9b1b336c1684_emotions.png"
+   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763531_9b1b336c1684_emotions.png",
+   "name": "Feelings",
+   "isFixed": true,
+   "grid": {
+    "rows": 2,
+    "columns": 6,
+    "order": [
+     [
+      "mb-HkYF-back",
+      "mb-9f04e8be",
+      "mb-39df1439",
+      "mb-cb4c2715",
+      "mb-19ca4d41",
+      "mb-5a85772c"
+     ],
+     [
+      "mb-99347fa0",
+      "mb-8f3bc488",
+      "mb-bc50500d",
+      null,
+      null,
+      null
+     ]
+    ]
+   }
   },
   {
    "id": "BJ5KawhwTZ",
@@ -1768,203 +1715,104 @@
    "hidden": true,
    "tiles": [
     {
-     "labelKey": "cboard.symbol.iHave",
-     "image": "/symbols/arasaac/i_have.png",
-     "id": "S1G4m0567qYZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-ry1e-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
     },
     {
-     "labelKey": "cboard.symbol.iSaw",
-     "image": "/symbols/arasaac/i_saw.png",
-     "id": "BJXE7C5pXqY-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "cboard.symbol.iWant",
-     "image": "/symbols/mulberry/want_,_to.svg",
-     "id": "H1EEX09Tm9Yb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.dog",
+     "id": "mb-07f44097",
+     "labelKey": "dog",
      "image": "/symbols/mulberry/dog.svg",
-     "id": "HkS4XR5TXctZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "symbol.animalMammal.cat",
+     "id": "mb-b31f80dd",
+     "labelKey": "cat",
      "image": "/symbols/mulberry/cat.svg",
-     "id": "By8EQ09Tm5YW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "symbol.animalMammal.hamster",
-     "image": "/symbols/mulberry/hamster.svg",
-     "id": "rJD4m096X9Fb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-6eadd74e",
+     "labelKey": "bird",
+     "image": "/symbols/mulberry/bird.svg",
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "symbol.animalMammal.rabbit",
-     "image": "/symbols/mulberry/rabbit.svg",
-     "id": "BkdN709Tm5Kb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.hedgehog",
-     "image": "/symbols/mulberry/hedgehog.svg",
-     "id": "HJtN7RqpX9Fb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.horse",
-     "image": "/symbols/mulberry/horse.svg",
-     "id": "Bk9VXCcT7qFZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.donkey",
-     "image": "/symbols/mulberry/donkey.svg",
-     "id": "Syj4XRq6X5tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalReptilesAndAmphibians.toad",
-     "image": "/symbols/mulberry/toad.svg",
-     "id": "S1nVQ09T7cYW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.sheep",
-     "image": "/symbols/mulberry/sheep.svg",
-     "id": "SJ6EQCca7qKW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalHabitat.dogKennel",
-     "image": "/symbols/mulberry/dog_kennel.svg",
-     "id": "Sk047A9pQcYZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalHabitat.cage",
-     "image": "/symbols/mulberry/cage.svg",
-     "id": "SkJBQA5amqY-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalHabitat.stable",
-     "image": "/symbols/mulberry/stable.svg",
-     "id": "rklr7CqpX5Fb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalReptilesAndAmphibians.frog",
-     "image": "/symbols/mulberry/frog.svg",
-     "id": "HkWrmC5T79Yb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalBirds.chick",
-     "image": "/symbols/mulberry/chick.svg",
-     "id": "BkMS70cT7qFW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalFishAndMarineMammals.fish",
+     "id": "mb-a4cef75d",
+     "labelKey": "fish",
      "image": "/symbols/mulberry/fish.svg",
-     "id": "SkmSXC5T7qtW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "symbol.animalBirds.chickenLive",
-     "image": "/symbols/mulberry/live_chicken.svg",
-     "id": "rkVSQRq6X9KW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-2e0e847a",
+     "labelKey": "horse",
+     "image": "/symbols/mulberry/horse.svg",
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "symbol.animalMammal.mouse",
-     "image": "/symbols/mulberry/mouse.svg",
-     "id": "r1HSQRqTQcKW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.rat",
-     "image": "/symbols/mulberry/rat.svg",
-     "id": "BkUBXC5pXcK-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalBirds.parrot",
-     "image": "/symbols/mulberry/parrot.svg",
-     "id": "ryPHQ0qTX5KZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalHabitat.nest",
-     "image": "/symbols/mulberry/nest.svg",
-     "id": "S1OBmR9TXqK-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalBirds.goose",
-     "image": "/symbols/mulberry/goose.svg",
-     "id": "S1tBmC5T7ctZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.cow",
+     "id": "mb-d02fe694",
+     "labelKey": "cow",
      "image": "/symbols/mulberry/cow.svg",
-     "id": "ryqrQA9pX9tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "cboard.symbol.wildAnimals",
-     "image": "/symbols/cboard/wild_animals.svg",
-     "loadBoard": "SJO-YpP3w6b",
-     "id": "HkjS70ca7qFW",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "id": "mb-16087e50",
+     "labelKey": "rabbit",
+     "image": "/symbols/mulberry/rabbit.svg",
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "cboard.symbol.marineAnimals",
-     "image": "/symbols/cboard/marine_animals.svg",
-     "loadBoard": "HkKbYpwnw6b",
-     "id": "HJnS7R56X5tW",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "id": "mb-b56e80a6",
+     "labelKey": "duck",
+     "image": "/symbols/mulberry/duck.svg",
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "cboard.symbol.insects",
-     "image": "/symbols/cboard/insects.svg",
-     "loadBoard": "BJ3Wt6whwaW",
-     "id": "ryTrX056Q9tb",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "id": "mb-65a4df1f",
+     "labelKey": "frog",
+     "image": "/symbols/mulberry/frog.svg",
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "cboard.symbol.birds",
-     "image": "/symbols/cboard/birds.svg",
-     "loadBoard": "Bk6-t6vnva-",
-     "id": "r1CrQ0qTX9F-",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "id": "mb-00a5d4ec",
+     "labelKey": "lion",
+     "image": "/symbols/mulberry/lion.svg",
+     "backgroundColor": "rgb(240,98,146)"
     },
     {
-     "labelKey": "symbol.animalReptilesAndAmphibians.tortoise",
-     "image": "/symbols/mulberry/tortoise.svg",
-     "id": "S118mAc6X9tb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.camel",
-     "image": "/symbols/mulberry/camel.svg",
-     "id": "S1x8XRcTQ9YZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalMammal.piglet",
-     "image": "/symbols/mulberry/piglet.svg",
-     "id": "SkZImCq6XcYb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-7eb3de87",
+     "labelKey": "elephant",
+     "image": "/symbols/mulberry/elephant.svg",
+     "backgroundColor": "rgb(240,98,146)"
     }
    ],
-   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763725_9b1b336c1684_animals.png"
+   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763725_9b1b336c1684_animals.png",
+   "name": "Animals",
+   "isFixed": true,
+   "grid": {
+    "rows": 2,
+    "columns": 6,
+    "order": [
+     [
+      "mb-ry1e-back",
+      "mb-07f44097",
+      "mb-b31f80dd",
+      "mb-6eadd74e",
+      "mb-a4cef75d",
+      "mb-2e0e847a"
+     ],
+     [
+      "mb-d02fe694",
+      "mb-16087e50",
+      "mb-b56e80a6",
+      "mb-65a4df1f",
+      "mb-00a5d4ec",
+      "mb-7eb3de87"
+     ]
+    ]
+   }
   },
   {
    "id": "HJgeKTv3vpW",
@@ -2504,111 +2352,92 @@
    "hidden": true,
    "tiles": [
     {
-     "labelKey": "symbol.peopleRelationship.family",
-     "image": "/symbols/mulberry/family.svg",
-     "loadBoard": "ryLbKpv3PpZ",
-     "id": "rk1s7A9pXqtZ",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "id": "mb-SkUl-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
     },
     {
-     "labelKey": "cboard.symbol.characters",
-     "image": "/symbols/arasaac/characters.png",
-     "loadBoard": "ryvbt6w2D6W",
-     "id": "rJxoXAcaX5YZ",
-     "backgroundColor": "rgb(187, 222, 251)"
-    },
-    {
-     "labelKey": "symbol.peopleRelationship.dad",
-     "image": "/symbols/mulberry/dad.svg",
-     "id": "rkZs7R9T75F-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.peopleRelationship.mum",
+     "id": "mb-16553f1f",
+     "labelKey": "mom",
      "image": "/symbols/mulberry/mum.svg",
-     "id": "SyGs70qpX5FZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.teacher",
-     "image": "/symbols/mulberry/teacher_1b.svg",
-     "id": "rJmiQ05amctW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-d1ba5b21",
+     "labelKey": "dad",
+     "image": "/symbols/mulberry/dad.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.doctor",
-     "image": "/symbols/mulberry/doctor_1a.svg",
-     "id": "SJNomR5pXqtb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-539c07b7",
+     "labelKey": "teacher",
+     "image": "/symbols/mulberry/teacher_2b.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.nurse",
-     "image": "/symbols/mulberry/nurse_2a.svg",
-     "id": "S1SiXR9TXcFZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-dc2e2512",
+     "labelKey": "brother",
+     "image": "/symbols/mulberry/brother.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.speechLanguageTherapist",
-     "image": "/symbols/mulberry/speech_language_therapist_1b.svg",
-     "id": "rkIo7R5TX9Yb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-18f9615f",
+     "labelKey": "sister",
+     "image": "/symbols/mulberry/sister.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.police",
-     "image": "/symbols/mulberry/police_1b.svg",
-     "id": "SkwjQC9pX9K-",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-b8ccf658",
+     "labelKey": "baby",
+     "image": "/symbols/mulberry/baby.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.deliveryPerson",
-     "image": "/symbols/mulberry/delivery_person_1a.svg",
-     "id": "SkOimR5TX5KW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-b08f24b2",
+     "labelKey": "grandma",
+     "image": "/symbols/mulberry/grandmother.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.postPerson",
-     "image": "/symbols/mulberry/post_person_1a.svg",
-     "id": "SyFiQ05aQcFb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-c6ad25c7",
+     "labelKey": "grandpa",
+     "image": "/symbols/mulberry/grandfather.svg",
+     "backgroundColor": "rgb(255,241,118)"
     },
     {
-     "labelKey": "symbol.peopleProfession.dentist",
-     "image": "/symbols/mulberry/dentist_1a.svg",
-     "id": "Hk5sQCq6Q9tb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.peopleProfession.carpenter",
-     "image": "/symbols/mulberry/carpenter_1b.svg",
-     "id": "rJis7AcaQqtW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.peopleProfession.secretary",
-     "image": "/symbols/mulberry/secretary_1a.svg",
-     "id": "Hy2iXRca7cFW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.peopleProfession.taxiDriver",
-     "image": "/symbols/mulberry/taxi_driver_1c.svg",
-     "id": "Hk6o7AcT75FW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.peopleProfession.gardener",
-     "image": "/symbols/mulberry/gardener_2b.svg",
-     "id": "B1AjXA96m5Kb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.peopleProfession.itAssistant",
-     "image": "/symbols/mulberry/it_assistant_2b.svg",
-     "id": "S1y2m0ca79KZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-ba57c4fe",
+     "labelKey": "doctor",
+     "image": "/symbols/mulberry/doctor_2b.svg",
+     "backgroundColor": "rgb(255,241,118)"
     }
    ],
-   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763605_9b1b336c1684_people.png"
+   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763605_9b1b336c1684_people.png",
+   "name": "People",
+   "isFixed": true,
+   "grid": {
+    "rows": 2,
+    "columns": 6,
+    "order": [
+     [
+      "mb-SkUl-back",
+      "mb-16553f1f",
+      "mb-d1ba5b21",
+      "mb-539c07b7",
+      "mb-dc2e2512",
+      "mb-18f9615f"
+     ],
+     [
+      "mb-b8ccf658",
+      "mb-b08f24b2",
+      "mb-c6ad25c7",
+      "mb-ba57c4fe",
+      null,
+      null
+     ]
+    ]
+   }
   },
   {
    "id": "SywlK6Phv6Z",
@@ -2876,98 +2705,86 @@
    "hidden": true,
    "tiles": [
     {
-     "labelKey": "symbol.buildingResidential.house",
+     "id": "mb-S1ux-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
+    },
+    {
+     "id": "mb-460236b1",
+     "labelKey": "home",
      "image": "/symbols/mulberry/house.svg",
-     "id": "SyFCQ0qamcFb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(149,117,205)"
     },
     {
-     "labelKey": "symbol.buildingShop.shop",
-     "image": "/symbols/mulberry/shop.svg",
-     "id": "Bk50XAqTQqFW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-fda29e68",
+     "labelKey": "school",
+     "image": "/symbols/mulberry/school_1.svg",
+     "backgroundColor": "rgb(149,117,205)"
     },
     {
-     "labelKey": "symbol.money.bank",
-     "image": "/symbols/mulberry/bank.svg",
-     "id": "ByjC7R96Q5tb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-1840e361",
+     "labelKey": "shop",
+     "image": "/symbols/mulberry/shop_2.svg",
+     "backgroundColor": "rgb(149,117,205)"
     },
     {
-     "labelKey": "symbol.buildingOfficeAndFactory.officeBlock",
-     "image": "/symbols/mulberry/office_block.svg",
-     "id": "SynCQAqa75tZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.descriptivePosition.outside",
+     "id": "mb-704d3059",
+     "labelKey": "outside",
      "image": "/symbols/mulberry/outside.svg",
-     "id": "S16CXR5aXqYZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "backgroundColor": "rgb(149,117,205)"
     },
     {
-     "labelKey": "symbol.holidayAndTravel.beach",
+     "id": "mb-2fcf0919",
+     "labelKey": "bathroom",
+     "image": "/symbols/mulberry/toilet.svg",
+     "backgroundColor": "rgb(149,117,205)"
+    },
+    {
+     "id": "mb-6c186569",
+     "labelKey": "car",
+     "image": "/symbols/mulberry/car_2.svg",
+     "backgroundColor": "rgb(149,117,205)"
+    },
+    {
+     "id": "mb-a0a681aa",
+     "labelKey": "bus",
+     "image": "/symbols/mulberry/bus.svg",
+     "backgroundColor": "rgb(149,117,205)"
+    },
+    {
+     "id": "mb-b0ef5daf",
+     "labelKey": "beach",
      "image": "/symbols/mulberry/beach.svg",
-     "id": "Hy0C709aX9YZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.sport.gym",
-     "image": "/symbols/mulberry/gym_1.svg",
-     "id": "BJJkNA567qtW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.buildingPublic.church",
-     "image": "/symbols/mulberry/church.svg",
-     "id": "B1gyNC5pXcY-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.buildingGardenAndFarm.field",
-     "image": "/symbols/mulberry/field.svg",
-     "id": "BkZkVRc6X9YZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.buildingGardenAndFarm.backGarden",
-     "image": "/symbols/mulberry/back_garden.svg",
-     "id": "r1MJN05aXqYW",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.buildingSchool.school",
-     "image": "/symbols/mulberry/school.svg",
-     "id": "SkmkVA5Tmqt-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.buildingPublic.surgeryHealthCentre",
-     "image": "/symbols/mulberry/surgery_health_centre.svg",
-     "id": "ByEJN09TXqtZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.buildingResidential.garage",
-     "image": "/symbols/mulberry/garage.svg",
-     "id": "r1HJERqpmqFb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.animalHabitat.aquarium",
-     "image": "/symbols/mulberry/aquarium.svg",
-     "id": "r1Iy4R56XcKZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "cboard.symbol.countries",
-     "image": "/symbols/arasaac/countries.png",
-     "loadBoard": "BkFxtpD3wpW",
-     "id": "HkwkN0cTQ9Yb",
-     "backgroundColor": "rgb(187, 222, 251)"
+     "backgroundColor": "rgb(149,117,205)"
     }
    ],
-   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763831_9b1b336c1684_places.png"
+   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763831_9b1b336c1684_places.png",
+   "name": "Places",
+   "isFixed": true,
+   "grid": {
+    "rows": 2,
+    "columns": 6,
+    "order": [
+     [
+      "mb-S1ux-back",
+      "mb-460236b1",
+      "mb-fda29e68",
+      "mb-1840e361",
+      "mb-704d3059",
+      "mb-2fcf0919"
+     ],
+     [
+      "mb-6c186569",
+      "mb-a0a681aa",
+      "mb-b0ef5daf",
+      null,
+      null,
+      null
+     ]
+    ]
+   }
   },
   {
    "id": "BkFxtpD3wpW",
@@ -3529,103 +3346,86 @@
    "hidden": true,
    "tiles": [
     {
-     "labelKey": "cboard.symbol.whereIs",
-     "image": "/symbols/mulberry/where.svg",
-     "id": "SJp44A5T7qFW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-BJ2l-back",
+     "labelKey": "back",
+     "image": "/symbols/mybuddy/back.svg",
+     "backgroundColor": "rgb(224,224,224)",
+     "loadBoard": "root"
     },
     {
-     "labelKey": "cboard.symbol.iNeed",
-     "image": "/symbols/mulberry/help_,_to.svg",
-     "id": "B1AEEA5pm5tb",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-5468929b",
+     "labelKey": "ball",
+     "image": "/symbols/mulberry/ball.svg",
+     "backgroundColor": "rgb(79,195,247)"
     },
     {
-     "labelKey": "cboard.symbol.my",
-     "image": "/symbols/arasaac/my",
-     "id": "HkyrNC5am9KZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-a318d74c",
+     "labelKey": "toy",
+     "image": "/symbols/mulberry/toy_box.svg",
+     "backgroundColor": "rgb(79,195,247)"
     },
     {
-     "labelKey": "symbol.foodKitchenItems.fork",
-     "image": "/symbols/mulberry/fork.svg",
-     "id": "rygrNA96Xqt-",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-1d75391e",
+     "labelKey": "tablet",
+     "image": "/symbols/mulberry/computer_2.svg",
+     "backgroundColor": "rgb(79,195,247)"
     },
     {
-     "labelKey": "symbol.foodKitchenItems.knife",
-     "image": "/symbols/mulberry/knife.svg",
-     "id": "SJ-rEC9pQ5Y-",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-b1ca7561",
+     "labelKey": "blanket",
+     "image": "/symbols/mulberry/blanket.svg",
+     "backgroundColor": "rgb(79,195,247)"
     },
     {
-     "labelKey": "symbol.foodKitchenItems.spoon",
-     "image": "/symbols/mulberry/spoon.svg",
-     "id": "B1MBN0cpQ5YZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-272ede39",
+     "labelKey": "bubbles",
+     "image": "/symbols/mulberry/bubbles.svg",
+     "backgroundColor": "rgb(79,195,247)"
     },
     {
-     "labelKey": "symbol.foodKitchenItems.plate",
-     "image": "/symbols/mulberry/plate.svg",
-     "id": "ryXBVCcpX5FW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-324a3399",
+     "labelKey": "music",
+     "image": "/symbols/mulberry/music.svg",
+     "backgroundColor": "rgb(79,195,247)"
     },
     {
-     "labelKey": "symbol.drinkContainersAndMeasures.drinkingGlass",
-     "image": "/symbols/mulberry/glass_,_drinking.svg",
-     "id": "rJEBNRq6QctW",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-687b56e7",
+     "labelKey": "swing",
+     "image": "/symbols/mulberry/swing.svg",
+     "backgroundColor": "rgb(79,195,247)"
     },
     {
-     "labelKey": "symbol.drinkContainersAndMeasures.mug",
-     "image": "/symbols/mulberry/mug_2.svg",
-     "id": "SJSB4Rqp75Fb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodKitchenItems.straw",
-     "image": "/symbols/mulberry/straw.svg",
-     "id": "r1LH4RcaXcKb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodFeedingAndEating.serviette",
-     "image": "/symbols/mulberry/serviette.svg",
-     "id": "B1vHE0qTX9tb",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodKitchenItems.bowl",
-     "image": "/symbols/mulberry/bowl.svg",
-     "id": "BJ_SVRcpQcFZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodFeedingAndEating.placeMat",
-     "image": "/symbols/mulberry/place_mat.svg",
-     "id": "HktrV05675Y-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodKitchenItems.cooker",
-     "image": "/symbols/mulberry/cooker.svg",
-     "id": "r19HE096mqtZ",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.foodKitchenItems.fridge",
-     "image": "/symbols/mulberry/fridge.svg",
-     "id": "S1orNA967qY-",
-     "backgroundColor": "rgb(255, 241, 118)"
-    },
-    {
-     "labelKey": "symbol.toolsWorkshop.apron",
-     "image": "/symbols/mulberry/apron.svg",
-     "id": "BknSNAq67cKZ",
-     "backgroundColor": "rgb(255, 241, 118)"
+     "id": "mb-70be5ec8",
+     "labelKey": "phone",
+     "image": "/symbols/mulberry/mobile_phone.svg",
+     "backgroundColor": "rgb(79,195,247)"
     }
    ],
-   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763690_9b1b336c1684_kitchen.png"
+   "caption": "https://cboardgroupdiag483.blob.core.windows.net/cblob/1536763690_9b1b336c1684_kitchen.png",
+   "name": "Things",
+   "isFixed": true,
+   "grid": {
+    "rows": 2,
+    "columns": 6,
+    "order": [
+     [
+      "mb-BJ2l-back",
+      "mb-5468929b",
+      "mb-a318d74c",
+      "mb-1d75391e",
+      "mb-b1ca7561",
+      "mb-272ede39"
+     ],
+     [
+      "mb-324a3399",
+      "mb-687b56e7",
+      "mb-70be5ec8",
+      null,
+      null,
+      null
+     ]
+    ]
+   }
   },
   {
    "id": "rypgFTD3wT-",
