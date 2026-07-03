@@ -14,180 +14,180 @@
    "tiles": [
     {
      "labelKey": "I",
-     "image": "/symbols/mulberry/i_-_upper_case.svg",
+     "image": "/symbols/mybuddy/i.svg",
      "id": "61886e66-324",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "you",
-     "image": "/symbols/mulberry/young.svg",
+     "image": "/symbols/mybuddy/you.svg",
      "id": "44e77c80-bf4",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "my",
-     "image": "/symbols/mulberry/army_tank.svg",
+     "image": "/symbols/mybuddy/my.svg",
      "id": "62b855a0-173",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "it",
-     "image": "/symbols/mulberry/fig.svg",
+     "image": "/symbols/mybuddy/it.svg",
      "id": "277ae110-0c9",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "that",
-     "image": "/symbols/mulberry/correct.svg",
+     "image": "/symbols/mybuddy/that.svg",
      "id": "3f16b556-5da",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "want",
-     "image": "/symbols/mulberry/want_,_to.svg",
+     "image": "/symbols/mybuddy/want.svg",
      "id": "1b41f932-ba1",
      "backgroundColor": "rgb(165, 214, 167)"
     },
     {
      "labelKey": "go",
-     "image": "/symbols/mulberry/go_,_to.svg",
+     "image": "/symbols/mybuddy/go.svg",
      "id": "70e44800-3b2",
      "backgroundColor": "rgb(165, 214, 167)"
     },
     {
      "labelKey": "help",
-     "image": "/symbols/mulberry/help_,_to.svg",
+     "image": "/symbols/mybuddy/help.svg",
      "id": "c0ca34bf-218",
      "backgroundColor": "rgb(165, 214, 167)"
     },
     {
      "labelKey": "like",
-     "image": "/symbols/mulberry/intellikeys.svg",
+     "image": "/symbols/mybuddy/like.svg",
      "id": "615adb25-46c",
      "backgroundColor": "rgb(165, 214, 167)"
     },
     {
      "labelKey": "stop",
-     "image": "/symbols/mulberry/backstop.svg",
+     "image": "/symbols/mybuddy/stop.svg",
      "id": "7f72546f-d93",
      "backgroundColor": "rgb(239, 154, 154)"
     },
     {
      "labelKey": "more",
-     "image": "/symbols/mulberry/more.svg",
+     "image": "/symbols/mybuddy/more.svg",
      "id": "872d57e7-ab8",
      "backgroundColor": "rgb(255, 204, 128)"
     },
     {
      "labelKey": "yes",
-     "image": "/symbols/mulberry/eyes.svg",
+     "image": "/symbols/mybuddy/yes.svg",
      "id": "923f1761-b10",
      "backgroundColor": "rgb(165, 214, 167)"
     },
     {
      "labelKey": "no",
-     "image": "/symbols/mulberry/no.svg",
+     "image": "/symbols/mybuddy/no.svg",
      "id": "956e38d3-de4",
      "backgroundColor": "rgb(239, 154, 154)"
     },
     {
      "labelKey": "here",
-     "image": "/symbols/mulberry/where_1.svg",
+     "image": "/symbols/mybuddy/here.svg",
      "id": "71af7e76-e5e",
      "backgroundColor": "rgb(144, 202, 249)"
     },
     {
      "labelKey": "what",
-     "image": "/symbols/mulberry/what.svg",
+     "image": "/symbols/mybuddy/what.svg",
      "id": "7a27b7df-331",
      "backgroundColor": "rgb(206, 147, 216)"
     },
     {
      "labelKey": "all done",
-     "image": "/symbols/mulberry/flag_indonesia.svg",
+     "image": "/symbols/mybuddy/all_done.svg",
      "id": "ec64f054-256",
      "backgroundColor": "rgb(239, 154, 154)"
     },
     {
      "labelKey": "on",
-     "image": "/symbols/mulberry/on.svg",
+     "image": "/symbols/mybuddy/on.svg",
      "id": "47628804-8f8",
      "backgroundColor": "rgb(144, 202, 249)"
     },
     {
      "labelKey": "in",
-     "image": "/symbols/mulberry/in.svg",
+     "image": "/symbols/mybuddy/in.svg",
      "id": "6761c288-8dd",
      "backgroundColor": "rgb(144, 202, 249)"
     },
     {
      "labelKey": "off",
-     "image": "/symbols/mulberry/off.svg",
+     "image": "/symbols/mybuddy/off.svg",
      "id": "a61843ce-a7f",
      "backgroundColor": "rgb(144, 202, 249)"
     },
     {
      "labelKey": "out",
-     "image": "/symbols/mulberry/out.svg",
+     "image": "/symbols/mybuddy/out.svg",
      "id": "9f9fa168-e89",
      "backgroundColor": "rgb(144, 202, 249)"
     },
     {
      "labelKey": "some",
-     "image": "/symbols/mulberry/some.svg",
+     "image": "/symbols/mybuddy/some.svg",
      "id": "d94a4fbe-423",
      "backgroundColor": "rgb(255, 204, 128)"
     },
     {
      "labelKey": "is",
-     "image": "/symbols/mulberry/fish_,_to.svg",
+     "image": "/symbols/mybuddy/is.svg",
      "id": "c4805ec1-293",
      "backgroundColor": "rgb(165, 214, 167)"
     },
     {
      "labelKey": "who",
-     "image": "/symbols/mulberry/who.svg",
+     "image": "/symbols/mybuddy/who.svg",
      "id": "958086b9-e1c",
      "backgroundColor": "rgb(206, 147, 216)"
     },
     {
      "labelKey": "Food",
-     "image": "/symbols/mulberry/food.svg",
+     "image": "/symbols/mybuddy/food.svg",
      "loadBoard": "r1-FTvnvaW",
      "id": "2d1602ea-8ff",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "Feelings",
-     "image": "/symbols/mulberry/sad_man.svg",
+     "image": "/symbols/mybuddy/feelings.svg",
      "loadBoard": "HkYF6DnP6-",
      "id": "f0241b85-bd6",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "People",
-     "image": "/symbols/mulberry/go_,_to.svg",
+     "image": "/symbols/mybuddy/people.svg",
      "loadBoard": "SkUlYTw3wT-",
      "id": "7e88fb06-939",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "Places",
-     "image": "/symbols/mulberry/place_setting.svg",
+     "image": "/symbols/mybuddy/places.svg",
      "loadBoard": "S1uxKpvhPpb",
      "id": "3f800d46-bd6",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "Things",
-     "image": "/symbols/mulberry/toy_box.svg",
+     "image": "/symbols/mybuddy/things.svg",
      "loadBoard": "BJ2lK6v3DaZ",
      "id": "57839f62-b86",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "Animals",
-     "image": "/symbols/mulberry/ant.svg",
+     "image": "/symbols/mybuddy/animals.svg",
      "loadBoard": "ry1eFpwhDp-",
      "id": "334776c1-62a",
      "backgroundColor": "rgb(187, 222, 251)"
