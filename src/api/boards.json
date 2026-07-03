@@ -26,13 +26,13 @@
     },
     {
      "labelKey": "my",
-     "image": "/symbols/mulberry/my_computer_icon.svg",
+     "image": "/symbols/mulberry/army_tank.svg",
      "id": "62b855a0-173",
      "backgroundColor": "rgb(255, 241, 118)"
     },
     {
      "labelKey": "it",
-     "image": "/symbols/mulberry/it_room.svg",
+     "image": "/symbols/mulberry/fig.svg",
      "id": "277ae110-0c9",
      "backgroundColor": "rgb(255, 241, 118)"
     },
@@ -92,7 +92,7 @@
     },
     {
      "labelKey": "here",
-     "image": "/symbols/mulberry/where.svg",
+     "image": "/symbols/mulberry/where_1.svg",
      "id": "71af7e76-e5e",
      "backgroundColor": "rgb(144, 202, 249)"
     },
@@ -104,7 +104,7 @@
     },
     {
      "labelKey": "all done",
-     "image": "/symbols/mulberry/finish.svg",
+     "image": "/symbols/mulberry/flag_indonesia.svg",
      "id": "ec64f054-256",
      "backgroundColor": "rgb(239, 154, 154)"
     },
@@ -140,7 +140,7 @@
     },
     {
      "labelKey": "is",
-     "image": "/symbols/mulberry/is_this_enough.svg",
+     "image": "/symbols/mulberry/fish_,_to.svg",
      "id": "c4805ec1-293",
      "backgroundColor": "rgb(165, 214, 167)"
     },
@@ -159,21 +159,21 @@
     },
     {
      "labelKey": "Feelings",
-     "image": "/symbols/cboard/emotions.svg",
+     "image": "/symbols/mulberry/sad_man.svg",
      "loadBoard": "HkYF6DnP6-",
      "id": "f0241b85-bd6",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "People",
-     "image": "/symbols/mulberry/dinner_people_3.svg",
+     "image": "/symbols/mulberry/go_,_to.svg",
      "loadBoard": "SkUlYTw3wT-",
      "id": "7e88fb06-939",
      "backgroundColor": "rgb(187, 222, 251)"
     },
     {
      "labelKey": "Places",
-     "image": "/symbols/mulberry/where.svg",
+     "image": "/symbols/mulberry/place_setting.svg",
      "loadBoard": "S1uxKpvhPpb",
      "id": "3f800d46-bd6",
      "backgroundColor": "rgb(187, 222, 251)"
@@ -187,7 +187,7 @@
     },
     {
      "labelKey": "Animals",
-     "image": "/symbols/mulberry/dog.svg",
+     "image": "/symbols/mulberry/ant.svg",
      "loadBoard": "ry1eFpwhDp-",
      "id": "334776c1-62a",
      "backgroundColor": "rgb(187, 222, 251)"
