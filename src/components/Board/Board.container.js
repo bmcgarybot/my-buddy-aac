@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import { inflect, actionToKey, applyNot } from '../../api/morphology';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import shortid from 'shortid';
@@ -858,6 +859,28 @@ export class BoardContainer extends Component {
       isLiveMode
     } = this.props;
     const hasAction = tile.action && tile.action.startsWith('+');
+
+    // ── Morphology: grammar keys inflect the PREVIOUS output word ──
+    // (+S +ING +ED +ER +EST, TO+, n't) produce a real word — walk+ING =>
+    // "walking" — instead of speaking the ending as a separate chunk.
+    const morphKey = tile.action ? actionToKey(tile.action) : null;
+    if (morphKey && Array.isArray(this.props.output) && this.props.output.length) {
+      const out = [...this.props.output];
+      // find the last real (non-live) tile with a label
+      let i = out.length - 1;
+      while (i >= 0 && (out[i].type === 'live' || !out[i].label)) i--;
+      if (i >= 0) {
+        const prev = out[i];
+        const base = prev.vocalization || prev.label;
+        const newWord = morphKey === 'NT' ? applyNot(base) : inflect(base, morphKey);
+        out[i] = { ...prev, label: newWord, vocalization: newWord };
+        this.props.changeOutput(out);
+        if (!this.props.navigationSettings.quietBuilderMode) {
+          this.props.speak(newWord);
+        }
+        return;
+      }
+    }
 
     const say = () => {
       if (tile.sound) {

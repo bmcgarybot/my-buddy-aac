@@ -30,8 +30,8 @@ YEL="rgb(255,241,118)"; GRN="rgb(165,214,167)"; BLU="rgb(144,202,249)"
 PNK="rgb(244,143,177)"; PUR="rgb(206,147,216)"; RED="rgb(239,154,154)"
 ORG="rgb(255,183,77)";  GRY="rgb(224,224,224)"; WHT="rgb(250,250,250)"
 
-def w(label, spec, color, load=None):
-    return {"label": label, "spec": spec, "color": color, "load": load}
+def w(label, spec, color, load=None, action=None):
+    return {"label": label, "spec": spec, "color": color, "load": load, "action": action}
 
 # Pronoun first-hits open sequenced pages (LAMP: 2nd hit = aux/verb combos)
 def pr(label, sym):  # pronoun tile -> its second-hit page
@@ -41,13 +41,13 @@ def pr(label, sym):  # pronoun tile -> its second-hit page
 # Structure follows the owner's son's real WFL device (screenshots):
 # pronouns down the LEFT column, grammar keys as first-class cells.
 LAYOUT = [
- [pr("I","i"),w("my","my",YEL),w("want","want",GRN),w("like","like",GRN),w("go","go",GRN),w("get","get",GRN),w("what","what",PUR),w("who","who",PUR),w("where",("where",),PUR),w("when","when",PUR),w("why","why",PUR),w("+S","plus_s","rgb(220,237,200)")],
- [pr("you","you"),w("that","that",YEL),w("help","help",GRN),w("make","make",GRN),w("eat",("eat","eating","dinner"),GRN),w("drink","drink",GRN),w("play","play",GRN),w("stop","stop",RED),w("more","more",GRN),w("again","again",GRN),w("how","how",PUR),w("+ING","plus_ing","rgb(220,237,200)")],
- [pr("he","he"),w("this","this",YEL),w("do","do",GRN),w("can","can",GRN),w("put","put",GRN),w("give","give",GRN),w("take","take",GRN),w("look","look",GRN),w("say","say",GRN),w("feel","feel",GRN),w("know","know",GRN),w("+ED","plus_ed","rgb(220,237,200)")],
- [pr("she","she"),w("is","is",GRY),w("not","not",RED),w("open","open",GRN),w("turn","turn",GRN),w("come","come",GRN),w("big","big",BLU),w("little","little",BLU),w("good","good",BLU),w("bad","bad",BLU),w("hot","hot",BLU),w("+ER","plus_er","rgb(220,237,200)")],
- [pr("it","it"),w("on","on",PNK),w("in","in",PNK),w("off","off",PNK),w("out","out",PNK),w("up","up",PNK),w("down","down",PNK),w("here","here",PNK),w("cold","cold",BLU),w("fast","fast",BLU),w("slow","slow",BLU),w("+EST","plus_est","rgb(220,237,200)")],
- [pr("we","we"),w("yes","yes",GRN),w("no","no",RED),w("please","please",WHT),w("thank you","thank_you",WHT),w("hi","hi",WHT),w("bye","bye",WHT),w("love","love",WHT),w("some","some",BLU),w("all","all",BLU),w("all done","all_done",GRN),w("TO+","to_plus","rgb(220,237,200)")],
- [pr("they","they"),w("Food",("food",),ORG,"wfl-food"),w("Feelings","happy",ORG,"wfl-feelings"),w("People","people",ORG,"wfl-people"),w("Places","places",ORG,"wfl-places"),w("Things","things",ORG,"wfl-things"),w("Animals","animals",ORG,"wfl-animals"),w("Body","body",ORG,"wfl-body"),w("Clothes","clothes",ORG,"wfl-clothes"),w("School","school",ORG,"wfl-school"),w("ABC","keyboard",WHT,"wfl-abc"),w("n't","nt",RED)],
+ [pr("I","i"),w("my","my",YEL),w("want","want",GRN),w("like","like",GRN),w("go","go",GRN),w("get","get",GRN),w("what","what",PUR),w("who","who",PUR),w("where",("where",),PUR),w("when","when",PUR),w("why","why",PUR),w("+S","plus_s","rgb(220,237,200)",action="+s")],
+ [pr("you","you"),w("that","that",YEL),w("help","help",GRN),w("make","make",GRN),w("eat",("eat","eating","dinner"),GRN),w("drink","drink",GRN),w("play","play",GRN),w("stop","stop",RED),w("more","more",GRN),w("again","again",GRN),w("how","how",PUR),w("+ING","plus_ing","rgb(220,237,200)",action="+ing")],
+ [pr("he","he"),w("this","this",YEL),w("do","do",GRN),w("can","can",GRN),w("put","put",GRN),w("give","give",GRN),w("take","take",GRN),w("look","look",GRN),w("say","say",GRN),w("feel","feel",GRN),w("know","know",GRN),w("+ED","plus_ed","rgb(220,237,200)",action="+ed")],
+ [pr("she","she"),w("is","is",GRY),w("not","not",RED),w("open","open",GRN),w("turn","turn",GRN),w("come","come",GRN),w("big","big",BLU),w("little","little",BLU),w("good","good",BLU),w("bad","bad",BLU),w("hot","hot",BLU),w("+ER","plus_er","rgb(220,237,200)",action="+er")],
+ [pr("it","it"),w("on","on",PNK),w("in","in",PNK),w("off","off",PNK),w("out","out",PNK),w("up","up",PNK),w("down","down",PNK),w("here","here",PNK),w("cold","cold",BLU),w("fast","fast",BLU),w("slow","slow",BLU),w("+EST","plus_est","rgb(220,237,200)",action="+est")],
+ [pr("we","we"),w("yes","yes",GRN),w("no","no",RED),w("please","please",WHT),w("thank you","thank_you",WHT),w("hi","hi",WHT),w("bye","bye",WHT),w("love","love",WHT),w("some","some",BLU),w("all","all",BLU),w("all done","all_done",GRN),w("TO+","to_plus","rgb(220,237,200)",action="to+")],
+ [pr("they","they"),w("Food",("food",),ORG,"wfl-food"),w("Feelings","happy",ORG,"wfl-feelings"),w("People","people",ORG,"wfl-people"),w("Places","places",ORG,"wfl-places"),w("Things","things",ORG,"wfl-things"),w("Animals","animals",ORG,"wfl-animals"),w("Body","body",ORG,"wfl-body"),w("Clothes","clothes",ORG,"wfl-clothes"),w("School","school",ORG,"wfl-school"),w("ABC","keyboard",WHT,"wfl-abc"),w("n't","nt",RED,action="+nt")],
 ]
 
 # ── SECOND-HIT PAGES (fixed 12-col grids, back always top-left) ──
@@ -136,6 +136,7 @@ def build_board(bid, name, rows_spec, cols=12, with_back=True):
         t = {"id": f"{bid}-{uuid.uuid4().hex[:8]}", "labelKey": cell["label"],
              "image": img, "backgroundColor": cell["color"]}
         if cell["load"]: t["loadBoard"] = cell["load"]
+        if cell.get("action"): t["action"] = cell["action"]
         tiles.append(t)
     rows = (len(tiles) + cols - 1) // cols if with_back else len(rows_spec)
     order = [[tiles[r*cols+c]["id"] if r*cols+c < len(tiles) else None
