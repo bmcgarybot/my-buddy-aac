@@ -194,6 +194,7 @@ export class BoardContainer extends Component {
   };
 
   state = {
+    spellBuffer: '',
     selectedTileIds: [],
     isSaving: false,
     isSelectAll: false,
@@ -859,6 +860,42 @@ export class BoardContainer extends Component {
       isLiveMode
     } = this.props;
     const hasAction = tile.action && tile.action.startsWith('+');
+
+    // ── Keyboard word-joining: letters accumulate into a spelled word ──
+    // instead of each being spoken alone. SPACE commits the word to the
+    // sentence, SPEAK voices the buffer, CLEAR resets it.
+    const act = tile.action || '';
+    if (act.startsWith('spell')) {
+      const buf = this.state.spellBuffer || '';
+      if (act.startsWith('spell:')) {
+        const ch = act.slice(6);
+        this.setState({ spellBuffer: buf + ch });
+        if (!this.props.navigationSettings.quietBuilderMode) this.props.speak(ch);
+        return;
+      }
+      if (act === 'spell-space') {
+        const word = buf.trim();
+        if (word) {
+          const tileOut = {
+            id: shortid.generate(), label: word, labelKey: word,
+            vocalization: word, image: '',
+            backgroundColor: 'rgb(255, 249, 196)'
+          };
+          this.props.changeOutput([...this.props.output, tileOut]);
+          if (!this.props.navigationSettings.quietBuilderMode) this.props.speak(word);
+        }
+        this.setState({ spellBuffer: '' });
+        return;
+      }
+      if (act === 'spell-speak') {
+        if (buf.trim()) this.props.speak(buf.trim());
+        return;
+      }
+      if (act === 'spell-clear') {
+        this.setState({ spellBuffer: '' });
+        return;
+      }
+    }
 
     // ── Morphology: grammar keys inflect the PREVIOUS output word ──
     // (+S +ING +ED +ER +EST, TO+, n't) produce a real word — walk+ING =>

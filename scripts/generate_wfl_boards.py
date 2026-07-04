@@ -114,13 +114,18 @@ def pronoun_pages():
     return pages
 
 def keyboard_page():
+    # Letters carry a spell action so they ACCUMULATE into a word buffer
+    # instead of each being spoken on its own; control keys finish the word.
     rows="qwertyuiop asdfghjkl zxcvbnm".split(" ")
     cells=[]
     for r in rows:
         for ch in r:
-            cells.append(w(ch, "letter", "rgb(255,249,196)"))
+            cells.append(w(ch, "letter", "rgb(255,249,196)", action=f"spell:{ch}"))
     for d in "1234567890":
-        cells.append(w(d, "letter", WHT))
+        cells.append(w(d, "letter", WHT, action=f"spell:{d}"))
+    cells.append(w("SPACE", "space", "rgb(200,230,201)", action="spell-space"))
+    cells.append(w("SPEAK", "spk_word", "rgb(144,202,249)", action="spell-speak"))
+    cells.append(w("CLEAR", "clear_x", RED, action="spell-clear"))
     return {"wfl-abc": cells}
 
 def build_board(bid, name, rows_spec, cols=12, with_back=True):
