@@ -7,6 +7,7 @@ import messages from '../Board.messages';
 
 import { LABEL_POSITION_BELOW } from '../../Settings/Display/Display.constants';
 import './Symbol.css';
+import { decodeEscapes } from '../../../utils/decodeEscapes';
 import { Typography } from '@material-ui/core';
 import { getArasaacDB } from '../../../idb/arasaac/arasaacdb';
 
@@ -123,7 +124,7 @@ function Symbol(props) {
           autoFocus={true}
           multiline
           rows={5}
-          value={label}
+          value={decodeEscapes(label)}
           onChange={onWrite}
           fullWidth={true}
           onKeyPress={handleKeyPress}

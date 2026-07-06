@@ -1,4 +1,5 @@
 .Symbol {
+  contain: paint; /* hard-clip SVGs that declare overflow=visible (iOS strip bug) */
   height: 100%;
   width: 100%;
   display: flex;
